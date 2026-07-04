@@ -33,19 +33,17 @@ analyzed, and combined with other relevant data to answer a specific question or
 
 Imagine someone posts on social media:
 
-*"Going on vacation for one week!"*
+Going on vacation for one week!
+This is just information.
 
-This is just **information**.
-
-If an investigator combines this with other publicly available details—such as the person's location, public photos, or travel timeline—they may conclude that the person's home is currently unoccupied.
-
-That conclusion is **intelligence** because it is based on analysis rather than a single piece of information.
-
----
+If an investigator combines this with other publicly available details—such as the person's location,
+public photos, or travel timeline—they may conclude that the person's home is currently unoccupied.
+That conclusion is intelligece because it is based on analysis rather than a single piece of information.
 
 # Why is OSINT Important?
 
-OSINT has become an essential part of modern cybersecurity and investigations because valuable information is often publicly available.
+OSINT has become an essential part of modern cybersecurity and investigations 
+because valuable information is often publicly available.
 
 It is widely used in:
 
@@ -62,13 +60,11 @@ It is widely used in:
 
 Organizations use OSINT to identify threats, monitor risks, investigate incidents, verify information, and improve security.
 
----
 
 # Common Sources of OSINT
-
 There are many legal sources from which information can be collected.
 
-Some of the most common sources include:
+# Some of the most common sources include:
 
 * Search engines such as Google, Bing, and DuckDuckGo
 * Social media platforms like LinkedIn, X (Twitter), Facebook, and Instagram
@@ -83,7 +79,6 @@ Some of the most common sources include:
 
 Each source may provide valuable information that contributes to an investigation.
 
----
 
 # Passive OSINT vs Active OSINT
 
@@ -91,7 +86,7 @@ OSINT activities are generally divided into two categories.
 
 ## Passive OSINT
 
-Passive OSINT involves collecting information **without directly interacting with the target**.
+Passive OSINT involves collecting information without directly interacting with the target.
 
 Examples include:
 
@@ -102,11 +97,10 @@ Examples include:
 
 Passive OSINT is considered low risk because the target is usually unaware that information is being collected.
 
----
 
 ## Active OSINT
 
-Active OSINT involves **direct interaction with the target or its systems**.
+Active OSINT involves direct interaction with the target or its systems.
 
 Examples include:
 
@@ -117,12 +111,10 @@ Examples include:
 
 Active OSINT may reveal your identity or IP address because the target can potentially log your activity.
 
----
 
 # Ethical Considerations
 
 OSINT should always be performed responsibly and legally.
-
 Some important ethical principles include:
 
 * Use only publicly available information.
@@ -134,18 +126,14 @@ Some important ethical principles include:
 
 Being ethical is just as important as having technical skills.
 
----
 
 # The Intelligence Cycle
 
-The **Intelligence Cycle** is a structured process used to convert raw information into actionable intelligence.
+The Intelligence Cycle is a structured process used to convert raw information into actionable intelligence.
 
 It consists of six stages.
 
----
-
 ## 1. Planning & Direction
-
 Every investigation begins with a clear objective.
 
 Questions to ask include:
@@ -153,15 +141,11 @@ Questions to ask include:
 * What am I trying to discover?
 * Why is this investigation necessary?
 * Which sources should I use?
-
 Proper planning helps avoid collecting unnecessary information.
-
----
 
 ## 2. Collection
 
 Once the objective is defined, information is gathered from relevant public sources.
-
 These may include:
 
 * Search engines
@@ -170,13 +154,10 @@ These may include:
 * Government databases
 * News articles
 * Company websites
-
 At this stage, only raw information is collected.
 
----
 
 ## 3. Processing
-
 Raw information is often unorganized.
 
 Processing involves:
@@ -186,23 +167,17 @@ Processing involves:
 * Extracting metadata
 * Standardizing file formats
 * Categorizing information
-
 This makes the data easier to analyze.
 
----
 
 ## 4. Analysis
 
 Analysis is the most important stage of the Intelligence Cycle.
-
 Here, investigators identify relationships, patterns, and conclusions from the collected information.
-
 This is the stage where **information becomes intelligence**.
 
----
 
 ## 5. Dissemination
-
 After analysis, the findings are shared with the intended audience.
 
 The results may be presented as:
@@ -212,55 +187,49 @@ The results may be presented as:
 * Security assessments
 * Presentations
 * Briefings
-
 The goal is to communicate findings clearly and effectively.
 
----
 
 ## 6. Feedback
-
 The final stage is reviewing the investigation.
 
 Questions include:
-
 * Was the objective achieved?
 * Are there information gaps?
 * Is additional investigation required?
 * What can be improved?
-
 Feedback helps improve future investigations and starts the Intelligence Cycle again if necessary.
 
----
 
 # Real-World Example
-
 Suppose a company wants to identify publicly exposed information about itself.
-
 The investigation might proceed as follows:
 
-* **Planning:** Define the objective of identifying publicly exposed assets.
-* **Collection:** Gather information from Google, LinkedIn, GitHub, DNS records, and public documents.
-* **Processing:** Organize and categorize the collected information.
-* **Analysis:** Identify exposed employee information, technologies, or sensitive documents.
-* **Dissemination:** Prepare a report with findings and recommendations.
-* **Feedback:** Determine whether additional investigation is required.
+* Planning: Define the objective of identifying publicly exposed assets.
+* Collection: Gather information from Google, LinkedIn, GitHub, DNS records, and public documents.
+* Processing: Organize and categorize the collected information.
+* Analysis: Identify exposed employee information, technologies, or sensitive documents.
+* Dissemination: Prepare a report with findings and recommendations.
+* Feedback: Determine whether additional investigation is required.
 
 This demonstrates how the Intelligence Cycle transforms scattered information into meaningful intelligence.
 
----
 
 # Key Takeaways
 
-* **OSINT (Open Source Intelligence)** is the process of collecting, analyzing, and using publicly available information to support investigations and decision-making.
+* OSINT (Open Source Intelligence) is the process of collecting, analyzing, and using publicly 
+  available information to support investigations and decision-making.
 * Information becomes intelligence only after careful analysis.
 * OSINT relies on many legal and publicly accessible sources.
 * Ethical and legal practices are essential in every investigation.
 * The Intelligence Cycle provides a systematic framework for gathering, analyzing, and presenting intelligence.
 
----
 
 # Conclusion
 
-Today's learning provided a strong foundation for understanding OSINT and its role in cybersecurity and investigations. Rather than simply collecting large amounts of data, effective OSINT focuses on asking the right questions, gathering relevant information, analyzing it carefully, and converting it into actionable intelligence.
-
-Understanding these fundamentals is the first step toward mastering advanced OSINT techniques, tools, and real-world investigations in the coming days of this challenge.
+Today's learning provided a strong foundation for understanding OSINT 
+and its role in cybersecurity and investigations. Rather than simply collecting 
+large amounts of data, effective OSINT focuses on asking the right questions,
+gathering relevant information, analyzing it carefully, and converting it into actionable intelligence.
+Understanding these fundamentals is the first step toward mastering advanced OSINT techniques,
+tools, and real-world investigations in the coming days of this challenge.
