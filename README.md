@@ -79,23 +79,6 @@ This challenge is designed to strengthen my skills in **Open Source Intelligence
 | 29 | Building an OSINT Workflow | ⬜ |
 | 30 | Final Investigation Project | ⬜ |
 
----
-
-# 📈 Challenge Progress
-
-```
-□□□□□□□□□□□□□□ 0%
-
-Completed : 0 / 30 Days
-
-Current Day : Day 01
-
-Current Streak : 🔥 1 Day
-
-Goal : 30 Days Without Missing
-```
-
----
 
 # 🧠 Skills Covered
 
