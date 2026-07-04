@@ -1,4 +1,4 @@
-# 30-Days-OSINT-Challenge
+
 <div align="center">
 
 # 🔴 30 Days of OSINT Challenge
