@@ -1,1 +1,264 @@
+# Day 2: Google Dorking (Advanced Search Operators)
 
+ 30 Days of OSINT Challenge
+
+## Introduction
+
+Welcome to Day 2 of my 30 Days of OSINT (Open Source Intelligence) Challenge.
+
+Today I explored Google Dorking, also known as Google Advanced Search Operators. Although the term
+"Google Dorking" is often misunderstood, it is simply the practice of using Google's built-in
+search operators to perform more accurate and efficient searches.
+Google Dorking is an essential OSINT skill because it helps investigators, researchers, journalists,
+and cybersecurity professionals locate publicly available information quickly while reducing irrelevant search results.
+
+
+# Learning Objectives
+
+- Understand what Google Dorking is.
+- Learn commonly used Google Search Operators.
+- Understand how operators can be combined.
+- Practice ethical OSINT searching.
+- Perform basic real-world exercises.
+
+
+# What is Google Dorking?
+
+Google Dorking (also called Google Hacking) is the use of Google's advanced search operators 
+to refine search results and locate publicly indexed information.
+It does not hack websites. Instead, it helps users search Google's index more effectively.
+
+OSINT professionals use Google Dorking to:
+
+- Conduct research
+- Locate documentation
+- Verify information
+- Find public reports
+- Search within specific websites
+- Improve investigation efficiency
+
+
+# Why is Google Dorking Important?
+
+Instead of searching thousands of pages manually, advanced search operators allow us to narrow down search results based on:
+
+- Website
+- File type
+- Keywords
+- Page title
+- URL
+- Content
+- Date
+- Related websites
+
+This saves time and improves the quality of information gathered.
+
+
+# Common Google Search Operators
+
+| Operator | Purpose |
+|----------|---------|
+| `""` | Search an exact phrase |
+| `-` | Exclude a word |
+| `site:` | Search within a specific website |
+| `filetype:` | Search specific file types |
+| `intitle:` | Search in page titles |
+| `allintitle:` | Search multiple title keywords |
+| `inurl:` | Search within URLs |
+| `allinurl:` | Search multiple URL keywords |
+| `intext:` | Search within page content |
+| `allintext:` | Search multiple text keywords |
+| `OR` | Search either keyword |
+| `*` | Wildcard operator |
+| `before:` | Search before a specific date |
+| `after:` | Search after a specific date |
+| `related:` | Find similar websites |
+| `cache:` | View Google's cached version of a page |
+
+
+# Advanced Google Search Techniques
+
+## 1. Search Operator Chaining
+
+Combining multiple operators helps produce more accurate search results.
+
+Example use:
+
+- Searching PDF documents from a specific website.
+- Finding official documentation.
+
+
+## 2. Exact Phrase Search
+
+Searching with quotation marks helps locate exact matches.
+
+Useful for:
+
+- Quotes
+- Research papers
+- Official statements
+
+## 3. Keyword Exclusion
+
+Removing unwanted keywords helps eliminate irrelevant search results.
+
+Useful when one keyword has multiple meanings.
+
+
+## 4. Boolean Searching
+
+Using OR allows searching multiple terms simultaneously.
+
+Useful for:
+
+- Alternative technology names
+- Similar products
+- Research topics
+
+## 5. Wildcard Searching
+
+The wildcard (`*`) replaces unknown words.
+
+Useful when only part of a phrase is known.
+
+
+## 6. File Discovery
+
+Google indexes many publicly available file types.
+
+Common examples include:
+
+- PDF
+- DOCX
+- PPTX
+- XLSX
+
+Useful for:
+
+- Research papers
+- Manuals
+- Public reports
+- Whitepapers
+
+
+## 7. Website-Specific Research
+
+Search only inside one organization's website.
+
+Useful for:
+
+- Documentation
+- Policies
+- Blogs
+- Knowledge bases
+
+
+## 8. Date Filtering
+
+Limit searches to a specific time period.
+
+Useful for:
+
+- Recent news
+- Incident timelines
+- Historical research
+
+
+## 9. Related Website Discovery
+
+Google can suggest websites similar to another website.
+
+Useful for:
+
+- Competitive research
+- Alternative resources
+- Industry exploration
+
+
+## 10. Query Refinement
+
+Professional investigators rarely find useful information using only one search.
+
+A common workflow is:
+
+1. Start broad.
+2. Review results.
+3. Add filters.
+4. Refine keywords.
+5. Verify information.
+
+
+# Practical Exercise
+
+To reinforce today's learning, I performed a few ethical OSINT exercises using publicly available information.
+
+### Exercise 1
+
+Located my own LinkedIn profile using Google Search Operators.
+
+* Objective
+
+Understand how search operators improve search precision.
+
+
+### Exercise 2
+
+Located the LinkedIn profile of one of my friends from the Computer Engineering (CE) department,
+using only publicly indexed information available through Google.
+
+* Objective
+
+Learn how advanced search techniques can efficiently locate publicly available professional profiles.
+
+
+# Key Learnings
+
+- Google Dorking is about searching smarter, not hacking.
+- Search operators significantly improve search accuracy.
+- Combining multiple operators produces better results.
+- Ethical use is essential in every OSINT investigation.
+- Publicly available information can be discovered more efficiently with proper search techniques.
+
+---
+
+# Best Practices
+
+- Verify information from multiple sources.
+- Prefer official websites whenever possible.
+- Use precise keywords.
+- Keep refining your searches.
+- Respect privacy and applicable laws.
+- Use Google Dorking only for ethical and legal purposes.
+
+---
+
+# Common Mistakes
+
+- Using very broad keywords.
+- Ignoring official sources.
+- Not combining operators.
+- Assuming every indexed page is accurate.
+- Forgetting to verify information.
+
+
+# Summary
+
+Today's session introduced me to one of the most fundamental skills in Open Source Intelligence—Google Dorking.
+I learned that effective OSINT is not about using complex tools but about asking better questions 
+and using Google's advanced search capabilities effectively.
+Through practical exercises and advanced search techniques, I gained a better understanding 
+of how investigators locate relevant public information quickly and efficiently while following ethical practices.
+
+
+# Key Takeaways
+
+- Google Dorking is the use of Google's advanced search operators.
+- It improves search precision and investigation efficiency.
+- It is a core skill for OSINT professionals.
+- Ethical use is essential.
+- Combining search operators produces better search results.
+
+
+## Next Topic
+
+Day 3 – Reverse Image Search
