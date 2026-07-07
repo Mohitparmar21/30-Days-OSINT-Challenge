@@ -51,8 +51,8 @@ This challenge is designed to strengthen my skills in **Open Source Intelligence
 | 01 | Introduction to OSINT & Intelligence Cycle | ⬜ |
 | 02 | Google Dorking | ⬜ |
 | 03 | Reverse Image Search | ⬜ |
-| 04 | Username Enumeration | ⬜ |
-| 05 | Email Intelligence | ⬜ |
+| 04 | Email Inteligence | ⬜ |
+| 05 |  Username Enumeration| ⬜ |
 | 06 | Phone Number OSINT | ⬜ |
 | 07 | Domain & DNS Reconnaissance | ⬜ |
 | 08 | WHOIS Investigation | ⬜ |
