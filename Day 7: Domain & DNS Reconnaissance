@@ -1,0 +1,430 @@
+
+
+# Day 7: Domain & DNS Reconnaissance
+
+## Introduction
+
+Day 7 of my 30 Days of OSINT (Open Source Intelligence) Challenge.
+
+Today, I explored Domain & DNS Reconnaissance, one of the core techniques in Open Source Intelligence used to gather publicly
+available information about websites, domains, and their underlying infrastructure.
+Every website on the internet operates under a domain name, and behind every domain is a Domain Name System (DNS) 
+that translates human-readable domain names into IP addresses. By analyzing DNS records and domain information, 
+investigators can understand how a website is configured, identify its publicly exposed services, and build a clearer picture of an organization's online infrastructure.
+Domain & DNS Reconnaissance is widely used in cybersecurity, penetration testing, bug bounty programs, threat intelligence, digital forensics,
+and incident response. The objective is to collect publicly available information ethically and use it to improve security awareness or support legitimate investigations.
+
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand domains and DNS.
+* Learn how DNS works.
+* Explore different DNS record types.
+* Perform domain reconnaissance using OSINT tools.
+* Understand subdomains and DNS enumeration.
+* Learn practical investigation techniques.
+* Follow ethical and legal investigation practices.
+
+
+# What is a Domain?
+
+A Domain Name is the human-readable address of a website.
+
+Examples:
+
+* google.com
+* github.com
+* openai.com
+
+Instead of remembering numerical IP addresses, users access websites through domain names.
+
+
+# What is DNS?
+
+DNS (Domain Name System) is often called the Internet's Phonebook.
+
+Its job is to convert domain names into IP addresses.
+
+Example:
+
+google.com
+        ↓
+142.250.xxx.xxx
+
+Without DNS, users would need to remember IP addresses for every website they visit.
+
+
+# Why is Domain & DNS Reconnaissance Important?
+
+Domain reconnaissance helps investigators understand publicly available information about an organization's internet infrastructure.
+
+It is commonly used in:
+
+* Open Source Intelligence (OSINT)
+* Cybersecurity
+* Penetration Testing
+* Bug Bounty Hunting
+* Threat Intelligence
+* Digital Forensics
+* Incident Response
+* Attack Surface Mapping
+* Security Audits
+
+
+# DNS Record Types
+
+Understanding DNS records is essential for every OSINT investigator.
+
+## A Record
+
+Maps a domain name to an IPv4 address.
+
+Example:
+
+google.com
+→ 142.250.xxx.xxx
+
+## AAAA Record
+
+Maps a domain to an IPv6 address.
+
+
+## MX Record
+
+Specifies the mail servers responsible for receiving emails.
+
+Example:
+
+gmail.com
+→ mail.google.com
+
+Useful for email infrastructure investigations.
+
+
+## NS Record
+
+Shows the authoritative name servers responsible for the domain.
+
+
+## CNAME Record
+
+Creates an alias from one domain to another.
+
+Example:
+
+blog.example.com
+→ example.com
+
+
+## TXT Record
+
+Stores text information.
+
+Often contains:
+
+* SPF
+* DKIM
+* DMARC
+* Domain verification
+
+Important during email security investigations.
+
+
+## SOA Record
+
+Contains administrative information about the DNS zone.
+
+
+## PTR Record
+
+Performs reverse DNS lookups.
+
+IP Address → Domain Name
+
+
+# What is Domain Reconnaissance?
+
+Domain Reconnaissance is the process of collecting publicly available information about a domain.
+
+Investigators typically gather:
+
+* IP Address
+* DNS Records
+* Name Servers
+* Mail Servers
+* Subdomains
+* SSL Certificates
+* Website Technologies
+* Hosting Provider
+
+
+# Common Domain & DNS Reconnaissance Tools
+
+## Whois
+
+Provides domain registration information.
+
+Useful for:
+
+* Registrar
+* Registration dates
+* Expiration date
+* Name servers
+
+
+## nslookup
+
+Queries DNS records directly.
+
+Useful for:
+
+* A Records
+* MX Records
+* TXT Records
+
+Example:
+
+nslookup google.com
+
+
+## dig
+
+Advanced DNS lookup tool.
+
+Useful for:
+
+* Detailed DNS information
+* DNS troubleshooting
+* Record analysis
+
+Example:
+
+dig google.com MX
+
+
+## DNSDumpster
+
+Visualizes DNS records, subdomains, and infrastructure.
+
+Useful for:
+
+* Domain mapping
+* Subdomain discovery
+* Infrastructure visualization
+
+
+
+## SecurityTrails
+
+Provides historical DNS information.
+
+Useful for:
+
+* DNS history
+* Subdomains
+* Hosting changes
+
+
+
+## crt.sh
+
+Searches Certificate Transparency Logs.
+
+Useful for:
+
+* SSL Certificates
+* Hidden Subdomains
+* Certificate History
+
+
+
+## VirusTotal
+
+Provides reputation information for domains.
+
+Useful for:
+
+* Domain analysis
+* Malware detection
+* Security reputation
+
+
+
+## Shodan
+
+Searches internet-connected services associated with IP addresses.
+
+Useful for:
+
+* Open ports
+* Exposed services
+* Server information
+
+
+## Google Search
+
+Searches publicly indexed information related to a domain.
+
+Useful for:
+
+* Public pages
+* Documents
+* Company information
+
+
+# Practical Implementation
+
+To strengthen my understanding of Domain & DNS Reconnaissance, I performed several hands-on 
+exercises using my own domain research and publicly available websites.
+
+
+### Exercise 1 – Whois Lookup
+
+I performed a Whois lookup on a public domain to understand its registration details, 
+registrar information, creation date, expiration date, and authoritative name servers.
+
+
+### Exercise 2 – DNS Record Investigation
+
+Using nslookup and dig, I explored various DNS records including:
+
+* A Record
+* MX Record
+* NS Record
+* TXT Record
+
+This exercise helped me understand how websites communicate across the internet.
+
+
+### Exercise 3 – DNSDumpster Analysis
+
+I explored DNSDumpster to visualize domain infrastructure, identify publicly available subdomains, and understand how different DNS records relate to one another.
+
+
+### Exercise 4 – Certificate Transparency Investigation
+
+Using crt.sh, I searched Certificate Transparency Logs to discover SSL certificates and identify publicly visible subdomains associated with a domain.
+
+
+### Exercise 5 – VirusTotal Domain Analysis
+
+I investigated a public domain using VirusTotal to understand domain reputation, detection history, and publicly available security information.
+
+
+### Exercise 6 – Shodan Investigation
+
+I explored how Shodan displays publicly accessible internet-connected services related to IP addresses associated with domains.
+This exercise demonstrated how publicly exposed services contribute to an organization's attack surface.
+
+
+### Exercise 7 – Google Search Investigation
+
+Finally, I searched the domain using Google Search to identify publicly indexed pages,
+documents, and information available through search engines.
+
+Exercise 8: Conducted an ethical OSINT analysis of my university's publicly available domain. I examined its DNS configuration, DNS records, name servers,
+mail exchange (MX) records, SSL certificate information, subdomains, and other publicly accessible infrastructure details using multiple OSINT tools.
+This exercise helped me understand how organizations manage their internet presence and reinforced the importance of analyzing infrastructure responsibly.
+
+# Investigation Workflow
+
+My investigation followed a structured workflow:
+
+Identify Domain
+        ↓
+Whois Lookup
+        ↓
+DNS Record Analysis
+        ↓
+Subdomain Enumeration
+        ↓
+SSL Certificate Search
+        ↓
+Technology Analysis
+        ↓
+Cross Verification
+        ↓
+Documentation
+
+
+
+# Challenges
+
+During Domain Reconnaissance, investigators may encounter:
+
+* Private WHOIS records
+* CDN services hiding real servers
+* Cloudflare protection
+* Dynamic DNS changes
+* Multiple IP addresses
+* False positives
+
+Therefore, multiple sources should always be used for verification.
+
+
+# Best Practices
+
+* Collect only publicly available information.
+* Verify findings using multiple tools.
+* Document every observation.
+* Respect privacy and applicable laws.
+* Never assume incomplete information is accurate.
+* Follow responsible disclosure principles when appropriate.
+
+
+# Common Mistakes
+
+* Depending on a single OSINT tool.
+* Ignoring historical DNS information.
+* Forgetting Certificate Transparency logs.
+* Misinterpreting DNS records.
+* Failing to verify findings.
+
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* DNS is the backbone of internet communication.
+* Domains contain a wealth of publicly available information.
+* Different DNS records serve different purposes.
+* Certificate Transparency Logs can reveal subdomains.
+* Cross-verification improves investigation accuracy.
+* Ethical investigations rely on publicly available data.
+
+
+# Summary
+
+Today's session introduced me to one of the most valuable infrastructure-based OSINT techniques—Domain & DNS Reconnaissance.
+Through both theoretical concepts and practical exercises, I learned how domains, DNS records, SSL certificates,
+and internet infrastructure contribute to cybersecurity investigations. I explored several powerful tools including
+Whois, nslookup, dig, DNSDumpster, SecurityTrails, crt.sh, VirusTotal, Shodan, and Google Search, each providing unique insights into publicly available domain information.
+One of the biggest lessons from today's learning is that effective reconnaissance is built on collecting accurate public information,
+validating it through multiple trusted sources, and understanding how different pieces of infrastructure fit together.
+
+
+# Tools Explored
+
+* Whois
+* nslookup
+* dig
+* DNSDumpster
+* SecurityTrails
+* crt.sh
+* VirusTotal
+* Shodan
+* Google Search
+
+
+# Key Takeaways
+
+* Domain & DNS Reconnaissance is a foundational OSINT technique.
+* DNS records reveal valuable infrastructure information.
+* Whois helps identify domain registration details.
+* Certificate Transparency Logs can uncover subdomains.
+* Cross-verification improves investigation accuracy.
+* Ethical use of publicly available information is essential.
+
+
