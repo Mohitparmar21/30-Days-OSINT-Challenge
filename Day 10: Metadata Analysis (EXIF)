@@ -1,0 +1,422 @@
+Day 10: Metadata Analysis (EXIF)
+
+Introduction
+
+Welcome to Day 10 of my 30 Days of OSINT (Open Source Intelligence) Challenge.
+
+Today, I explored Metadata Analysis (EXIF), an essential OSINT technique that helps investigators extract hidden information from digital files such as images, documents, videos, and PDFs.
+
+At first glance, a file only shows its visible content. However, hidden inside it is metadata—information that can reveal details about when the file was created, which device was used, the software involved, timestamps, and in some cases, even the location where it was captured.
+
+One of the biggest lessons from today's learning is that every digital file has a story beyond what we see. Metadata helps investigators uncover that story while using publicly available or authorized files in an ethical manner.
+
+
+---
+
+Learning Objectives
+
+During today's learning, I aimed to:
+
+Understand what Metadata and EXIF are.
+
+Learn why metadata is important in OSINT investigations.
+
+Explore different types of metadata.
+
+Identify information hidden inside digital files.
+
+Perform practical metadata analysis.
+
+Understand the privacy and security implications of metadata.
+
+Learn why metadata should always be verified.
+
+
+
+---
+
+What is Metadata?
+
+Metadata is "data about data."
+
+It is hidden information stored within a digital file that describes its properties rather than its visible content.
+
+Common metadata includes:
+
+File Name
+
+File Type
+
+File Size
+
+Date Created
+
+Date Modified
+
+Author
+
+Software Used
+
+Device Information
+
+GPS Coordinates (if available)
+
+
+
+---
+
+What is EXIF?
+
+EXIF (Exchangeable Image File Format) is a metadata standard used mainly in photographs captured by smartphones and digital cameras.
+
+EXIF can contain:
+
+Camera Manufacturer
+
+Camera Model
+
+Date & Time Captured
+
+GPS Coordinates
+
+ISO
+
+Aperture
+
+Exposure Time
+
+Flash Information
+
+Image Resolution
+
+Orientation
+
+
+Not every image contains complete EXIF data, as many social media platforms remove metadata to improve user privacy.
+
+
+---
+
+Why is Metadata Important?
+
+Metadata helps investigators to:
+
+Verify digital evidence.
+
+Determine when a file was created.
+
+Identify the device used.
+
+Detect edited or modified files.
+
+Discover location information (when available).
+
+Support Digital Forensics investigations.
+
+Assist OSINT investigations.
+
+
+
+---
+
+Types of Metadata
+
+Image Metadata
+
+Includes:
+
+Camera details
+
+GPS location
+
+Resolution
+
+Camera settings
+
+Timestamp
+
+
+
+---
+
+Document Metadata
+
+Includes:
+
+Author
+
+Software Used
+
+Company
+
+Creation Date
+
+Revision History
+
+
+
+---
+
+Video Metadata
+
+Includes:
+
+Resolution
+
+Codec
+
+Duration
+
+Frame Rate
+
+Recording Device
+
+
+
+---
+
+Audio Metadata
+
+Includes:
+
+Artist
+
+Album
+
+Recording Software
+
+Duration
+
+Bitrate
+
+
+
+---
+
+Tools Explored
+
+During today's learning, I explored several metadata analysis tools:
+
+ExifTool
+
+Metadata2Go
+
+Exif Viewer
+
+FOCA
+
+MediaInfo
+
+PDF Info
+
+Strings
+
+
+Each tool provides different insights depending on the file type being analyzed.
+
+
+---
+
+Practical Exercises
+
+To strengthen my understanding of Metadata Analysis, I completed several hands-on exercises using my own files and publicly available sample files.
+
+Exercise 1 – Image Metadata Analysis
+
+Used ExifTool to extract metadata from one of my own photographs.
+
+I analyzed:
+
+Camera Make
+
+Camera Model
+
+Date & Time
+
+Resolution
+
+Camera Settings
+
+
+
+---
+
+Exercise 2 – GPS Metadata Investigation
+
+Analyzed whether an image contained GPS coordinates.
+
+For this exercise, I used one of my own mountain trip photographs. Initially, it was simply a personal memory of one of the best times of my life. However, after extracting its metadata, I discovered that the file also contained technical information, including the approximate location where the photo had been captured. This practical exercise demonstrated how much information a single image can reveal beyond what is visible.
+
+
+---
+
+Exercise 3 – PDF Metadata Analysis
+
+Extracted metadata from a PDF document and examined:
+
+Author
+
+Creation Date
+
+Modification Date
+
+Software Used
+
+
+
+---
+
+Exercise 4 – Video Metadata Analysis
+
+Used MediaInfo to analyze:
+
+Resolution
+
+Codec
+
+Duration
+
+Frame Rate
+
+
+
+---
+
+Exercise 5 – Metadata Comparison
+
+Compared an original image with an edited version to observe how metadata changes after editing.
+
+
+---
+
+Exercise 6 – Cross Verification
+
+Compared metadata extracted by multiple tools to understand why investigators should never rely on a single source of information.
+
+
+---
+
+Investigation Workflow
+
+Collect File
+      ↓
+Identify File Type
+      ↓
+Extract Metadata
+      ↓
+Analyze EXIF Information
+      ↓
+Review Timestamps & Device Details
+      ↓
+Check GPS Information (If Available)
+      ↓
+Cross Verify Findings
+      ↓
+Document Results
+
+
+---
+
+Challenges
+
+While performing metadata analysis, investigators may face:
+
+Missing EXIF data
+
+Metadata removed by social media platforms
+
+Edited or manipulated metadata
+
+Missing GPS information
+
+Different outputs from different tools
+
+
+These challenges highlight why verification is a fundamental part of every OSINT investigation.
+
+
+---
+
+Best Practices
+
+Analyze only authorized or publicly available files.
+
+Use multiple metadata extraction tools.
+
+Cross-verify findings before drawing conclusions.
+
+Respect privacy and legal boundaries.
+
+Remember that metadata alone is not conclusive evidence.
+
+
+
+---
+
+Key Learnings
+
+By the end of today's learning, I understood that:
+
+Metadata contains valuable hidden information.
+
+EXIF provides technical details about digital photographs.
+
+Different file types store different metadata.
+
+Metadata can reveal timestamps, devices, software, and sometimes locations.
+
+Social media platforms often remove metadata to protect privacy.
+
+Every metadata finding should be verified with additional evidence.
+
+
+
+---
+
+Summary
+
+Today's session introduced me to Metadata Analysis (EXIF), one of the most valuable techniques in Open Source Intelligence and Digital Forensics.
+
+Through both theoretical concepts and practical exercises, I learned how hidden metadata can reveal valuable insights about digital files. One of the most interesting exercises involved analyzing one of my own mountain trip photographs. What initially appeared to be just a cherished memory also contained hidden technical details about when and where the photo had been taken, demonstrating the investigative value of metadata.
+
+The biggest takeaway from today's learning is that important evidence is often hidden inside the file itself rather than in what we see on the screen. Effective OSINT investigators know how to extract, verify, and responsibly analyze this hidden information while respecting privacy and ethical guidelines.
+
+
+---
+
+Tools Used
+
+ExifTool
+
+Metadata2Go
+
+Exif Viewer
+
+FOCA
+
+MediaInfo
+
+PDF Info
+
+Strings
+
+
+
+---
+
+Key Takeaways
+
+Metadata is "data about data."
+
+EXIF stores technical information about digital images.
+
+Metadata analysis plays a crucial role in OSINT and Digital Forensics.
+
+Hidden metadata can reveal valuable investigative clues.
+
+Cross-verification is essential for reliable investigations.
+
+Ethical handling of metadata is a core responsibility of every OSINT investigator.
+
+
+
