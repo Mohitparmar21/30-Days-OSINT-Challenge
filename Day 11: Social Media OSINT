@@ -1,0 +1,307 @@
+# Day 11: Social Media OSINT
+
+## Introduction
+
+Day 11 of my 30 Days of OSINT (Open Source Intelligence) Challenge.
+
+Today, I explored Social Media OSINT**, one of the most powerful branches of Open Source Intelligence. 
+Social media platforms contain an enormous amount of publicly available information that can help investigators understand individuals,
+organizations, events, trends, and online activities.
+Every day, millions of users share photos, videos, locations, opinions, achievements, and connections. When analyzed ethically, 
+this publicly available information can provide valuable intelligence for cybersecurity investigations, digital forensics, threat intelligence, journalism, and law enforcement.
+One of the biggest lessons from today's learning is that social media is much more than a communication platform—it is one of the 
+richest sources of publicly available intelligence. However, every piece of information should be verified before reaching any conclusion.
+
+
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand Social Media OSINT.
+* Learn how investigators use publicly available social media data.
+* Explore different social media platforms for OSINT.
+* Understand digital footprints.
+* Learn profile analysis techniques.
+* Perform ethical social media investigations.
+* Understand privacy and ethical considerations.
+
+
+# What is Social Media OSINT?
+
+Social Media OSINT is the process of collecting, analyzing, and verifying publicly available information from social media platforms.
+The goal is not to invade privacy but to understand what users intentionally or unintentionally make publicly accessible.
+
+Information can include:
+
+* Public Profiles
+* Usernames
+* Profile Pictures
+* Bios
+* Posts
+* Comments
+* Hashtags
+* Public Followers
+* Public Following Lists
+* Locations
+* Images
+* Videos
+* Public Events
+
+
+# Why is Social Media OSINT Important?
+
+Social media investigations help in:
+
+* Cybersecurity Investigations
+* Threat Intelligence
+* Brand Monitoring
+* Digital Forensics
+* Journalism
+* Missing Person Investigations
+* Fraud Detection
+* Scam Investigations
+* Incident Response
+
+
+# Digital Footprint
+
+A **digital footprint** is the information a person leaves behind while using the internet.
+
+Examples include:
+
+* Public profiles
+* Shared images
+* Posts
+* Comments
+* Likes (if public)
+* Check-ins
+* Public usernames
+* Biography information
+
+Understanding digital footprints helps investigators connect publicly available information from multiple sources.
+
+
+# Common Social Media Platforms
+
+Investigators often analyze publicly available information from:
+
+* LinkedIn
+* X (Twitter)
+* Instagram
+* Facebook
+* GitHub
+* Reddit
+* YouTube
+* TikTok
+* Pinterest
+* Telegram (Public Channels)
+
+Each platform provides different types of publicly available intelligence.
+
+
+# Information That Can Be Collected
+
+During ethical OSINT investigations, investigators may identify:
+
+* Public Usernames
+* Profile Information
+* Bio
+* Public Email (if shared)
+* Website Links
+* Organization
+* Public Photos
+* Public Videos
+* Public Posts
+* Public Locations
+* Public Interests
+* Public Connections
+
+
+# Common Social Media OSINT Tools
+
+## WhatsMyName
+
+Useful for:
+
+* Username Enumeration
+* Cross-platform username search
+
+
+## Sherlock
+
+Useful for:
+
+* Username investigations across hundreds of websites
+
+
+## Social Searcher
+
+Useful for:
+
+* Public social media searches
+* Keywords
+* Hashtags
+
+
+## Google Search
+
+Useful for finding indexed public profiles.
+
+Example:
+
+site:linkedin.com "John Doe"
+
+
+## Google Dorking
+
+Useful for discovering publicly indexed social media content.
+
+Example:
+
+site:instagram.com "username"
+
+## Epieos
+
+Useful for:
+
+* Email-based investigations
+* Public account discovery
+
+
+## Browser Search
+
+Manual profile investigation using public information.
+
+
+# Investigation Workflow
+
+Define Investigation Goal
+          ↓
+Identify Public Profile
+          ↓
+Collect Public Information
+          ↓
+Analyze Digital Footprint
+          ↓
+Cross Verify Information
+          ↓
+Document Findings
+
+
+
+# Practical Exercises
+
+To strengthen my understanding of Social Media OSINT, I performed several practical exercises using publicly available information and my own online profiles.
+
+
+### Exercise 1 – LinkedIn Profile Analysis
+
+Analyzed publicly available LinkedIn profiles to understand:
+
+* Professional Information
+* Skills
+* Experience
+* Education
+* Public Activity
+
+---
+
+### Exercise 2 – Username Investigation
+
+Used WhatsMyName and Sherlock to determine whether a username existed across multiple social media platforms.
+
+
+
+### Exercise 3 – Google Dorking
+
+Used Google Search and advanced search operators to discover publicly indexed social media profiles.
+
+### Exercise 4 – GitHub Profile Investigation
+
+Analyzed publicly available GitHub profiles to understand:
+
+* Repositories
+* Technologies Used
+* Contributions
+* Project Activity
+
+ ### Exercise 5 – Public Digital Footprint
+
+Studied how publicly available information from multiple platforms can be combined to understand a person's online presence while respecting privacy and ethical boundaries.
+
+
+### Exercise 6 – Cross Verification
+
+Compared information gathered from multiple public sources to verify findings and avoid relying on a single platform.
+
+
+# Challenges
+
+While performing Social Media OSINT, investigators may encounter:
+
+* Private Accounts
+* Fake Profiles
+* Impersonation
+* Deleted Content
+* Outdated Information
+* Multiple Accounts with Similar Usernames
+
+These challenges reinforce the importance of verification.
+
+# Best Practices
+
+* Collect only publicly available information.
+* Respect privacy and legal boundaries.
+* Verify information using multiple sources.
+* Never assume public information is always accurate.
+* Document findings responsibly.
+* Avoid making conclusions without sufficient evidence.
+
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Social media is one of the richest OSINT sources.
+* Every public profile contributes to a digital footprint.
+* Username consistency helps connect online identities.
+* Cross-verification is essential.
+* Public information should always be analyzed ethically.
+* Investigators should separate facts from assumptions.
+
+
+
+# Summary
+
+Today's session introduced me to Social Media OSINT, one of the most valuable areas of Open Source Intelligence.
+Through both theoretical concepts and practical exercises, I explored how publicly available information from social media platforms
+can help investigators understand digital footprints, verify identities, and support cybersecurity investigations. 
+I practiced analyzing public profiles, usernames, GitHub repositories, and professional networks while following ethical OSINT principles.
+
+The biggest takeaway from today's learning is:
+
+> "Social media doesn't just connect people—it connects information. An effective OSINT investigator knows how to collect, verify, and analyze that information responsibly."
+
+
+# Tools Used
+
+* WhatsMyName
+* Sherlock
+* Google Search
+* Google Dorking
+* Epieos
+* LinkedIn
+* GitHub
+
+
+# Key Takeaways
+
+* Social Media OSINT uses publicly available information.
+* Digital footprints reveal valuable investigative insights.
+* Username investigations help connect online identities.
+* Multiple platforms should be used for verification.
+* Ethical investigation is more important than the number of tools used.
+* Always validate findings before drawing conclusions.
+
+
