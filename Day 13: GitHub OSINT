@@ -1,0 +1,276 @@
+# Day 13: GitHub OSINT
+
+## Introduction
+
+Welcome to **Day 13** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **GitHub OSINT**, one of the most valuable areas of Open Source Intelligence for cybersecurity professionals, researchers, bug bounty hunters, and digital investigators.
+
+GitHub is much more than a platform for hosting source code. Every public repository, commit, issue, pull request, and profile contributes to a developer's digital footprint. By analyzing publicly available information ethically, investigators can gain insights into technologies, project development, collaboration patterns, and organizational activities.
+
+One of the biggest lessons from today's learning is that **GitHub isn't just about code—it's about understanding the story behind the code through publicly available information.**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand GitHub OSINT.
+* Learn how GitHub can be used during OSINT investigations.
+* Analyze public developer profiles.
+* Explore repository structures and documentation.
+* Understand project activity through commits.
+* Learn ethical investigation practices.
+* Develop practical GitHub investigation skills.
+
+---
+
+# What is GitHub OSINT?
+
+GitHub OSINT is the process of collecting, analyzing, and verifying **publicly available information** from GitHub.
+
+Rather than focusing only on source code, investigators examine public repositories, documentation, commit history, contribution patterns, and profile information to understand projects, technologies, and developer activity.
+
+---
+
+# Why is GitHub Important in OSINT?
+
+GitHub can help investigators:
+
+* Understand technology stacks.
+* Analyze open-source projects.
+* Research organizations.
+* Study developer activity.
+* Identify project documentation.
+* Track software development.
+* Understand collaboration between contributors.
+* Support cybersecurity and threat intelligence research.
+
+---
+
+# Public Information That Can Be Analyzed
+
+## GitHub Profiles
+
+* Username
+* Bio
+* Organization
+* Website
+* Public repositories
+* Followers
+* Following
+* Contribution graph
+
+---
+
+## Repositories
+
+* Repository Name
+* Description
+* Programming Languages
+* Topics
+* README
+* Stars
+* Forks
+* Releases
+* License
+
+---
+
+## Development Activity
+
+* Commits
+* Pull Requests
+* Issues
+* Discussions
+* Contributors
+* Branches
+* Tags
+
+---
+
+## Documentation
+
+* README files
+* Wikis
+* Project documentation
+* Release notes
+* API documentation
+
+---
+
+# Investigation Techniques
+
+### Profile Analysis
+
+Understanding a developer's public profile, interests, and contributions.
+
+---
+
+### Repository Analysis
+
+Examining repository structure, technologies, documentation, and project organization.
+
+---
+
+### Commit History Analysis
+
+Understanding how projects evolve over time by reviewing public commit history.
+
+---
+
+### Organization Analysis
+
+Studying public repositories and projects belonging to organizations.
+
+---
+
+### Code Search
+
+Searching publicly available repositories for technologies, frameworks, documentation, or implementation examples.
+
+---
+
+### Cross Verification
+
+Verifying findings using multiple public sources before documenting conclusions.
+
+---
+
+# Practical Exercises
+
+To strengthen my understanding of GitHub OSINT, I completed several practical exercises using publicly available repositories and my own GitHub profile.
+
+### Exercise 1 – Profile Analysis
+
+Analyzed public GitHub profiles to understand:
+
+* Skills
+* Technologies
+* Public repositories
+* Developer activity
+
+---
+
+### Exercise 2 – Repository Investigation
+
+Explored several repositories to identify:
+
+* Project structure
+* Programming languages
+* Documentation
+* Technologies used
+
+---
+
+### Exercise 3 – Commit History
+
+Reviewed commit history to understand:
+
+* Project evolution
+* Development timeline
+* Contributor activity
+
+---
+
+### Exercise 4 – Repository Documentation
+
+Analyzed README files and project documentation to understand project objectives and implementation.
+
+---
+
+### Exercise 5 – Personal GitHub Investigation
+
+Analyzed my own GitHub profile to better understand my digital footprint, repository organization, contribution history, and how my public work is presented to recruiters and other developers.
+
+---
+
+### Exercise 6 – Cross Verification
+
+Compared information across multiple public repositories and profiles before documenting observations.
+
+---
+
+# Investigation Workflow
+
+```text
+Select Public GitHub Profile
+            ↓
+Collect Public Information
+            ↓
+Analyze Profile
+            ↓
+Review Repositories
+            ↓
+Study Commits & Documentation
+            ↓
+Understand Technologies Used
+            ↓
+Cross Verify Findings
+            ↓
+Document Results
+```
+
+---
+
+# Challenges
+
+While performing GitHub OSINT, investigators may encounter:
+
+* Private repositories
+* Inactive projects
+* Limited documentation
+* Archived repositories
+* Similar usernames
+* Incomplete profile information
+
+These challenges highlight the importance of verification and careful analysis.
+
+---
+
+# Best Practices
+
+* Analyze only publicly available repositories.
+* Respect privacy and licensing.
+* Never attempt to access private repositories.
+* Verify findings before making conclusions.
+* Document investigations responsibly.
+* Follow ethical OSINT principles.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* GitHub is one of the richest OSINT resources for technical investigations.
+* Public repositories reveal technologies, project structures, and development practices.
+* Repository documentation provides valuable context.
+* Contribution history helps understand project evolution.
+* Cross-verification is essential.
+* Ethical investigation is more important than collecting large amounts of information.
+
+---
+
+# Summary
+
+Today's session introduced me to **GitHub OSINT**, an important area of Open Source Intelligence that focuses on analyzing publicly available developer profiles, repositories, documentation, and project activity.
+
+Through theory and practical exercises, I learned how GitHub can provide valuable intelligence about technologies, projects, and collaboration while respecting ethical and legal boundaries. I also analyzed my own GitHub profile to understand how my public work contributes to my professional digital footprint.
+
+The biggest takeaway from today's learning is:
+
+> **"GitHub is more than a platform for writing code—it's a platform where public projects, collaboration, and continuous learning create a meaningful digital footprint."**
+
+---
+
+# Key Takeaways
+
+* GitHub is a valuable source of publicly available technical intelligence.
+* Repository analysis helps understand technologies and development practices.
+* Documentation provides valuable project context.
+* Contribution history reveals project activity.
+* Cross-verification improves investigation accuracy.
+* Ethical investigations always respect privacy, permissions, and open-source principles.
+
