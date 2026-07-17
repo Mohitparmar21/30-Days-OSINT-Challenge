@@ -1,0 +1,287 @@
+# Day 14: Breach Data Investigation
+
+## Introduction
+
+Welcome to **Day 14** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **Breach Data Investigation**, an important area of Open Source Intelligence (OSINT) that focuses on identifying whether publicly reported data breaches have affected individuals or organizations. The primary objective is to improve cybersecurity awareness, assess digital exposure, and help users take appropriate security measures.
+
+A data breach can expose sensitive information such as email addresses, usernames, phone numbers, and password hashes. As an OSINT investigator, the goal is **not** to access leaked data, but to understand the impact of publicly reported breaches and use that knowledge to strengthen security.
+
+One of the biggest lessons from today's learning is that **awareness is the first step toward protection. Knowing that your information has been exposed allows you to take action before attackers can misuse it.**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand what a data breach is.
+* Learn how breach investigations support OSINT.
+* Explore publicly available breach intelligence.
+* Identify different types of exposed information.
+* Perform practical breach investigations.
+* Understand ethical and legal considerations.
+* Learn defensive security practices.
+
+---
+
+# What is a Data Breach?
+
+A **data breach** is a security incident in which sensitive information is exposed, leaked, or accessed without authorization.
+
+Information commonly exposed includes:
+
+* Email Addresses
+* Usernames
+* Phone Numbers
+* Password Hashes
+* Names
+* Addresses
+* Dates of Birth
+* Company Information
+
+The purpose of breach investigation is to determine **whether exposure has occurred**, not to access or distribute leaked information.
+
+---
+
+# Why is Breach Data Investigation Important?
+
+Breach investigations help:
+
+* Identify exposed accounts.
+* Improve password security.
+* Detect credential reuse.
+* Support incident response.
+* Raise cybersecurity awareness.
+* Reduce identity theft risks.
+* Strengthen personal and organizational security.
+
+---
+
+# Types of Information That May Be Exposed
+
+### Personal Information
+
+* Email Addresses
+* Usernames
+* Phone Numbers
+* Names
+
+---
+
+### Account Information
+
+* Password Hashes
+* User IDs
+* Security Questions (Older Breaches)
+
+---
+
+### Organizational Information
+
+* Company Email Addresses
+* Employee Accounts
+* Public Domains
+
+---
+
+### Technical Information
+
+* IP Addresses
+* Device Identifiers
+* Public Account Information
+
+---
+
+# Investigation Methodology
+
+A responsible breach investigation involves:
+
+### Exposure Verification
+
+Checking whether an email address or domain appears in publicly reported breach databases.
+
+---
+
+### Timeline Analysis
+
+Understanding when the breach occurred.
+
+---
+
+### Risk Assessment
+
+Evaluating the potential risks associated with the exposed information.
+
+---
+
+### Cross Verification
+
+Validating findings using multiple trusted public sources.
+
+---
+
+### Defensive Recommendations
+
+Recommending security improvements based on the findings.
+
+---
+
+# Tools Explored
+
+During today's learning, I explored:
+
+* Have I Been Pwned
+* Mozilla Monitor
+* Intelligence X
+* LeakCheck
+* DeHashed
+* Hudson Rock
+
+---
+
+# Investigation Workflow
+
+```text
+Select Authorized Email/Domain
+            ↓
+Check Public Breach Sources
+            ↓
+Identify Reported Breaches
+            ↓
+Analyze Exposed Information
+            ↓
+Assess Potential Risks
+            ↓
+Recommend Security Measures
+            ↓
+Cross Verify Findings
+            ↓
+Document Results
+```
+
+---
+
+# Practical Exercises
+
+To strengthen my understanding of Breach Data Investigation, I performed several practical exercises using **my own authorized email account** and publicly available breach information.
+
+### Exercise 1 – Personal Email Exposure Check
+
+Checked my own email address to determine whether it had appeared in any publicly reported data breaches.
+
+Observed:
+
+* Breach Name
+* Date of Breach
+* Type of Exposed Information
+
+---
+
+### Exercise 2 – Live Case Investigation
+
+With proper authorization, I investigated one of my friend's email addresses using publicly available breach notification services.
+
+The investigation revealed that the email address appeared in the **March 2024 boAt data breach**, which reportedly affected approximately **7.5 million customer accounts**.
+
+This practical exercise demonstrated how breach intelligence can be used for **defensive purposes**, helping users understand their digital exposure and encouraging them to take immediate actions such as:
+
+* Changing passwords
+* Enabling Multi-Factor Authentication (MFA)
+* Reviewing account security
+* Avoiding password reuse
+
+---
+
+### Exercise 3 – Breach Timeline Analysis
+
+Studied multiple publicly reported breaches to understand:
+
+* When the incidents occurred
+* Organizations affected
+* Types of exposed information
+
+---
+
+### Exercise 4 – Risk Assessment
+
+Evaluated the security risks associated with exposed credentials and discussed possible mitigation strategies.
+
+---
+
+### Exercise 5 – Cross Verification
+
+Verified all findings using multiple trusted public sources before documenting the investigation.
+
+---
+
+# Challenges
+
+During breach investigations, investigators may encounter:
+
+* Duplicate breach reports
+* Outdated information
+* Unverified breach claims
+* Limited public details
+* False positives
+
+These challenges reinforce the importance of verification.
+
+---
+
+# Best Practices
+
+* Investigate only accounts you own or are authorized to assess.
+* Never access or distribute leaked databases.
+* Use only trusted public breach notification services.
+* Respect privacy and legal boundaries.
+* Verify findings before reporting them.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Breach investigations focus on awareness and defense.
+* Public breach intelligence helps users identify digital exposure.
+* Password reuse significantly increases security risks.
+* Multi-Factor Authentication (MFA) greatly improves account security.
+* Ethical investigations always respect privacy and authorization.
+* Cross-verification is essential for reliable results.
+
+---
+
+# Summary
+
+Today's session introduced me to **Breach Data Investigation**, an important OSINT technique focused on identifying publicly reported security breaches and understanding their impact.
+
+Through both theoretical concepts and practical exercises, I learned how breach intelligence helps users become aware of compromised accounts and encourages stronger cybersecurity practices. One of the most valuable exercises involved investigating an authorized email address that appeared in the **March 2024 boAt data breach**, providing a real-world understanding of how breach notification services help users recognize exposure and take immediate defensive action.
+
+The biggest takeaway from today's learning is:
+
+The purpose of breach intelligence is not to find leaked data—it is to help people understand their exposure, reduce risks, and build stronger security habits."**
+
+---
+
+# Tools Used
+
+* Have I Been Pwned
+* Mozilla Monitor
+* Intelligence X
+* LeakCheck
+* DeHashed
+* Hudson Rock
+
+---
+
+# Key Takeaways
+
+* Data breaches can expose valuable personal information.
+* Breach investigations are defensive, not offensive.
+* Always investigate only authorized accounts.
+* Avoid password reuse across different services.
+* Enable Multi-Factor Authentication (MFA).
+* Cross-verification is essential before documenting findings.
+
