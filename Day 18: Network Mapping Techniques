@@ -1,0 +1,238 @@
+# Day 18: Network Mapping Techniques
+
+## Introduction
+
+Welcome to **Day 18** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **Network Mapping Techniques**, a fundamental skill in OSINT and cybersecurity that helps security professionals understand how devices, systems, and services are connected within a network. By mapping publicly accessible infrastructure, defenders can identify exposed assets, understand network relationships, and improve an organization's security posture.
+
+One of the biggest lessons from today's learning is:
+
+> **Visibility is the foundation of cybersecurity. Before you can protect a network, you need to understand how it is built.**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand the fundamentals of network mapping.
+* Learn how network infrastructure is organized.
+* Understand IP addresses, ports, and network services.
+* Explore how digital assets are interconnected.
+* Learn ethical network discovery techniques.
+* Perform practical network mapping exercises.
+* Understand responsible investigation practices.
+
+---
+
+# What is Network Mapping?
+
+Network Mapping is the process of identifying and documenting publicly accessible network components and their relationships.
+
+A network map can include:
+
+* IP Addresses
+* Domains & Subdomains
+* DNS Records
+* Open Ports
+* Running Services
+* Network Devices
+* Public Infrastructure
+
+Network mapping helps organizations understand their attack surface and maintain accurate visibility of their digital assets.
+
+---
+
+# Why is Network Mapping Important?
+
+Network Mapping supports:
+
+* Asset Discovery
+* Attack Surface Management
+* Security Assessments
+* Threat Hunting
+* Incident Response
+* Infrastructure Documentation
+* Risk Identification
+* Defensive Cybersecurity
+
+---
+
+# Key Network Components
+
+### IP Addresses
+
+* Public IP
+* Private IP
+* IPv4
+* IPv6
+
+---
+
+### Domains & DNS
+
+Understanding:
+
+* Domain Names
+* Subdomains
+* DNS Records
+* Name Servers
+* MX Records
+
+---
+
+### Network Ports
+
+Common ports include:
+
+* 22 – SSH
+* 53 – DNS
+* 80 – HTTP
+* 443 – HTTPS
+* 3389 – RDP
+
+---
+
+### Network Services
+
+Examples include:
+
+* Web Servers
+* Mail Servers
+* DNS Servers
+* Database Servers
+* VPN Services
+
+---
+
+# Investigation Methodology
+
+A typical network mapping investigation follows these steps:
+
+1. Identify the target.
+2. Discover publicly accessible hosts.
+3. Identify open ports and services.
+4. Analyze infrastructure relationships.
+5. Cross-verify findings.
+6. Document the investigation.
+
+---
+
+# Practical Exercises
+
+To reinforce today's learning, I completed several practical exercises using **authorized targets** and publicly available information.
+
+### Exercise 1 – Host Discovery
+
+Identified publicly accessible systems belonging to an authorized target.
+
+---
+
+### Exercise 2 – Port & Service Analysis
+
+Observed open ports and learned which network services were publicly available.
+
+---
+
+### Exercise 3 – DNS & Infrastructure Mapping
+
+Studied DNS records, domains, and infrastructure relationships to understand how network components are connected.
+
+---
+
+### Exercise 4 – Network Topology
+
+Learned how devices communicate across a network and how topology affects visibility and security.
+
+---
+
+### Exercise 5 – Digital Footprint Analysis
+
+Mapped publicly available infrastructure to better understand an organization's online presence and attack surface.
+
+---
+
+### Exercise 6 – Cross Verification
+
+Verified all observations using multiple trusted sources before documenting the investigation.
+
+---
+
+# Investigation Workflow
+
+```text
+Identify Target
+        ↓
+Collect Public Network Information
+        ↓
+Discover Hosts
+        ↓
+Analyze Ports & Services
+        ↓
+Map Infrastructure Relationships
+        ↓
+Cross Verify Findings
+        ↓
+Document Results
+```
+
+---
+
+# Challenges
+
+During today's investigation, I observed several common challenges:
+
+* Firewalls limiting visibility
+* Dynamic IP addresses
+* CDN-protected infrastructure
+* Large network environments
+* Hidden internal assets
+* False positives
+
+---
+
+# Best Practices
+
+* Scan only systems you own or have explicit authorization to assess.
+* Respect privacy and legal boundaries.
+* Verify findings using multiple trusted sources.
+* Maintain clear documentation.
+* Focus on defensive and ethical cybersecurity practices.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Every organization has a measurable network footprint.
+* Network mapping provides visibility into digital infrastructure.
+* Open ports and services reveal important information about exposed systems.
+* DNS records help connect different parts of an organization's infrastructure.
+* Cross-verification improves investigation accuracy.
+* Ethical investigations always require proper authorization.
+
+---
+
+# Summary
+
+Today's session introduced me to **Network Mapping Techniques**, where I learned how cybersecurity professionals identify and understand network infrastructure using publicly available information and authorized discovery methods.
+
+Through both theory and practical exercises, I explored host discovery, infrastructure mapping, DNS analysis, service identification, and network topology. This reinforced that strong cybersecurity begins with understanding what assets exist and how they are connected.
+
+The biggest takeaway from today's learning is:
+
+> **"You can't defend what you can't see. Network mapping provides the visibility needed to secure systems before attackers find them."**
+
+---
+
+# Key Takeaways
+
+* Network mapping improves visibility into digital infrastructure.
+* Public IPs, DNS records, ports, and services reveal valuable OSINT.
+* Infrastructure mapping helps identify potential security risks.
+* Cross-verification strengthens investigation accuracy.
+* Ethical investigations require authorization.
+* Visibility is the first step toward effective cyber defense.
+
