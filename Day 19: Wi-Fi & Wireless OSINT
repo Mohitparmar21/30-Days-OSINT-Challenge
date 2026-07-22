@@ -1,0 +1,335 @@
+# Day 19: Wi-Fi & Wireless OSINT
+
+## Introduction
+
+day 19 of my 30 Days of OSINT (Open Source Intelligence) Challenge.
+
+Today, I explored **Wi-Fi & Wireless OSINT**, one of the most interesting areas of OSINT that focuses on gathering intelligence from publicly broadcast wireless information. Before today, I thought Wi-Fi only became useful after connecting to it. However, I learned that every wireless network continuously broadcasts small pieces of information that nearby devices can detect without establishing a connection.
+
+One of the biggest lessons from today's learning is:
+
+> **Wi-Fi networks don't just provide internet access—they continuously broadcast valuable metadata. Ethical OSINT is about observing that information, not exploiting it.**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand Wi-Fi & Wireless OSINT.
+* Learn how Wi-Fi communication works.
+* Understand Beacon Frames and wireless broadcasts.
+* Learn about SSIDs, BSSIDs, and Access Points.
+* Explore Wi-Fi security standards.
+* Understand passive wireless observation.
+* Follow ethical investigation practices.
+
+---
+
+# What is Wi-Fi & Wireless OSINT?
+
+Wi-Fi & Wireless OSINT is the process of collecting, analyzing, and verifying **publicly broadcast wireless information** without connecting to a network.
+
+Wireless access points constantly announce their presence so nearby devices know they are available. This broadcast information can be observed and analyzed to understand wireless infrastructure while remaining completely passive.
+
+---
+
+# How Does Wi-Fi Work?
+
+Every Wi-Fi router periodically sends a special management frame called a **Beacon Frame**.
+
+Think of it like the router saying:
+
+> "Hello! My name is Campus-WiFi. I use WPA2 security. I'm operating on Channel 36 at 5 GHz."
+
+Your phone receives these broadcasts automatically whenever Wi-Fi is enabled—even before you connect.
+
+Cybersecurity professionals use these broadcasts to understand wireless environments without interacting with the network.
+
+---
+
+# What is a Beacon Frame?
+
+A **Beacon Frame** is a small wireless broadcast sent regularly by an Access Point.
+
+It typically contains information such as:
+
+* Network Name (SSID)
+* Access Point Identifier (BSSID)
+* Encryption Type
+* Channel Number
+* Frequency Band
+* Supported Standards
+* Vendor Information
+
+Listening to Beacon Frames is considered **passive observation** because no communication is initiated with the network.
+
+---
+
+# Understanding Important Terms
+
+## SSID
+
+SSID (Service Set Identifier) is simply the **Wi-Fi network name**.
+
+Examples:
+
+* Home_WiFi
+* Office_Network
+* Campus-WiFi
+* Guest_WiFi
+
+---
+
+## BSSID
+
+BSSID (Basic Service Set Identifier) is the **unique MAC address** assigned to an Access Point.
+
+Unlike SSIDs, which can have duplicate names, every BSSID is unique.
+
+---
+
+## Access Point
+
+An Access Point (AP) is the device that broadcasts a Wi-Fi network and allows wireless devices to connect.
+
+Examples include:
+
+* Home Routers
+* Office Access Points
+* University Wi-Fi Systems
+* Public Hotspots
+
+---
+
+# Wi-Fi Frequency Bands
+
+### 2.4 GHz
+
+Advantages:
+
+* Longer range
+* Better wall penetration
+
+Disadvantages:
+
+* Lower speed
+* More interference
+
+---
+
+### 5 GHz
+
+Advantages:
+
+* Faster speeds
+* Less interference
+
+Disadvantages:
+
+* Shorter range
+
+---
+
+### 6 GHz
+
+Newest Wi-Fi band (Wi-Fi 6E)
+
+Advantages:
+
+* Highest speeds
+* Lowest interference
+* More available channels
+
+---
+
+# Wi-Fi Security Standards
+
+Wireless networks commonly use:
+
+* Open Networks
+* WEP (Legacy & Insecure)
+* WPA
+* WPA2
+* WPA3 (Most Secure)
+
+Modern networks should use **WPA2** or **WPA3** for better protection.
+
+---
+
+# What Information Can Be Observed?
+
+Without connecting to a network, investigators can observe:
+
+* SSID
+* BSSID
+* Encryption Type
+* Channel Number
+* Frequency Band
+* Signal Strength
+* Access Point Vendor
+
+This information helps build a picture of the wireless environment without accessing any private data.
+
+---
+
+# Passive vs Active Investigation
+
+## Passive Observation
+
+* Listening only
+* No connection required
+* No packets transmitted
+* Ethical and low impact
+
+Examples:
+
+* Viewing nearby Wi-Fi networks
+* Recording signal strength
+* Identifying channels
+
+---
+
+## Active Investigation
+
+Examples include:
+
+* Connecting to a network
+* Sending probe requests
+* Authentication attempts
+
+These activities should only be performed with proper authorization.
+
+---
+
+# Investigation Methodology
+
+A Wi-Fi OSINT investigation typically follows these steps:
+
+1. Observe nearby wireless networks.
+2. Record publicly broadcast information.
+3. Identify security protocols.
+4. Analyze channels and frequencies.
+5. Compare observations.
+6. Cross-verify findings.
+7. Document results responsibly.
+
+---
+
+# Practical Exercises
+
+To reinforce today's learning, I completed several practical exercises using **my own network and authorized wireless environments**.
+
+### Exercise 1 – Beacon Frame Observation
+
+Observed publicly broadcast wireless information from nearby Wi-Fi networks and understood how Beacon Frames help devices discover available networks.
+
+---
+
+### Exercise 2 – SSID & BSSID Identification
+
+Identified SSIDs and BSSIDs to understand the difference between a network name and the unique identifier of an access point.
+
+---
+
+### Exercise 3 – Encryption Analysis
+
+Compared different Wi-Fi security standards (Open, WPA2, WPA3) to understand their security differences.
+
+---
+
+### Exercise 4 – Signal & Channel Analysis
+
+Observed signal strength, channel usage, and frequency bands to understand wireless performance and interference.
+
+---
+
+### Exercise 5 – Wireless Infrastructure Mapping
+
+Studied how multiple access points create a wireless infrastructure and how publicly broadcast information helps document network environments.
+
+---
+
+### Exercise 6 – Cross Verification
+
+Verified all observations before documenting the investigation.
+
+---
+
+# Investigation Workflow
+
+```text
+Enable Wi-Fi Observation
+          ↓
+Receive Beacon Frames
+          ↓
+Identify SSIDs & BSSIDs
+          ↓
+Analyze Security Configuration
+          ↓
+Study Signal & Channels
+          ↓
+Cross Verify Findings
+          ↓
+Document Investigation
+```
+
+---
+
+# Challenges
+
+Common challenges include:
+
+* Hidden SSIDs
+* Signal interference
+* Multiple overlapping networks
+* Dynamic wireless environments
+* Large enterprise deployments
+
+---
+
+# Best Practices
+
+* Observe only publicly broadcast information.
+* Never attempt unauthorized access.
+* Respect privacy and legal boundaries.
+* Stay passive unless explicitly authorized.
+* Verify findings before documenting them.
+* Follow ethical OSINT principles.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Every Wi-Fi network continuously broadcasts Beacon Frames.
+* SSIDs identify the network, while BSSIDs identify the access point.
+* Wi-Fi metadata can be collected without connecting to a network.
+* WPA2 and WPA3 provide stronger wireless security than older protocols.
+* Passive observation is the foundation of ethical Wireless OSINT.
+* Responsible investigations rely on publicly available information only.
+
+---
+
+# Summary
+
+Today's session introduced me to **Wi-Fi & Wireless OSINT**, where I learned that wireless networks constantly broadcast valuable metadata through Beacon Frames. By observing these broadcasts, cybersecurity professionals can understand wireless infrastructure, identify security configurations, and document network environments without connecting to the network.
+
+Through theory and practical exercises, I explored SSIDs, BSSIDs, frequency bands, wireless security standards, signal strength, and passive observation techniques. This reinforced that effective Wireless OSINT is built on observation, verification, and ethical practices.
+
+The biggest takeaway from today's learning is:
+
+> **"Every Wi-Fi network is constantly telling a story through its Beacon Frames. OSINT teaches us how to listen to that story responsibly, turning public wireless metadata into valuable security intelligence."**
+
+---
+
+# Key Takeaways
+
+* Beacon Frames advertise the presence of Wi-Fi networks.
+* SSID = Network Name, BSSID = Unique Access Point Identifier.
+* Wireless metadata can be observed without connecting.
+* Passive observation is safe, ethical, and widely used in OSINT.
+* WPA2 and WPA3 provide stronger protection than legacy protocols.
+* Wireless OSINT helps defenders understand and secure network infrastructure.
+
