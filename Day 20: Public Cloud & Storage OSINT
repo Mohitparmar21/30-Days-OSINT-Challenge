@@ -1,0 +1,260 @@
+# Day 20: Public Cloud & Storage OSINT
+
+## Introduction
+
+Welcome to **Day 20** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **Public Cloud & Storage OSINT**, an important area of cybersecurity that focuses on identifying and analyzing **publicly accessible cloud resources**. As organizations increasingly rely on cloud platforms to store data, applications, and backups, understanding how cloud assets are exposed has become a critical skill for security professionals.
+
+One of the biggest lessons from today's learning is:
+
+> **Cloud platforms are secure by design—but a single misconfiguration can unintentionally expose valuable data to the public.**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand Public Cloud & Storage OSINT.
+* Learn how cloud storage platforms work.
+* Identify publicly accessible cloud resources.
+* Understand cloud misconfigurations.
+* Explore cloud metadata and URL structures.
+* Learn ethical cloud investigation techniques.
+* Practice responsible OSINT methodologies.
+
+---
+
+# What is Public Cloud & Storage OSINT?
+
+Public Cloud & Storage OSINT is the process of collecting and analyzing **publicly available information** from cloud platforms without bypassing authentication or accessing private data.
+
+Security professionals use this information to:
+
+* Identify public cloud assets.
+* Understand an organization's cloud infrastructure.
+* Detect accidental data exposure.
+* Improve cloud security posture.
+* Support defensive cybersecurity.
+
+---
+
+# Popular Cloud Storage Platforms
+
+Some of the most widely used cloud storage services include:
+
+* Amazon S3 (AWS)
+* Microsoft Azure Blob Storage
+* Google Cloud Storage (GCS)
+* Google Drive
+* Microsoft OneDrive
+* Dropbox
+* Box
+
+---
+
+# Important Cloud Concepts
+
+## Cloud Storage
+
+Cloud storage allows files to be stored on remote servers instead of local devices.
+
+Examples include:
+
+* Images
+* Documents
+* Backups
+* Databases
+* Application files
+
+---
+
+## Cloud Buckets & Containers
+
+Different cloud providers organize data differently:
+
+* **AWS** → S3 Buckets
+* **Azure** → Blob Containers
+* **Google Cloud** → Storage Buckets
+
+These storage locations can contain thousands of files and folders.
+
+---
+
+## Public vs Private Resources
+
+A properly configured storage resource is only accessible to authorized users.
+
+However, accidental permission changes can make files publicly accessible, exposing information to anyone with the correct URL.
+
+---
+
+# Common Cloud Misconfigurations
+
+Some common mistakes include:
+
+* Public storage buckets
+* Shared folders with incorrect permissions
+* Public backup files
+* Exposed configuration files
+* Open database exports
+* Public log files
+
+Most cloud data exposure happens because of **human error**, not weaknesses in the cloud platform itself.
+
+---
+
+# Investigation Methodology
+
+A typical Cloud OSINT investigation follows these steps:
+
+1. Identify the target organization.
+2. Search for publicly available cloud resources.
+3. Identify cloud storage providers.
+4. Analyze cloud URLs and metadata.
+5. Assess publicly exposed resources.
+6. Cross-verify findings.
+7. Document observations responsibly.
+
+---
+
+# Practical Exercises
+
+To reinforce today's learning, I completed several practical exercises using **authorized targets** and **publicly available information**.
+
+### Exercise 1 – Cloud Provider Identification
+
+Identified different cloud storage providers by analyzing publicly available cloud URLs and infrastructure.
+
+---
+
+### Exercise 2 – Public Resource Discovery
+
+Practiced locating publicly available documents and files hosted on cloud platforms using ethical OSINT techniques.
+
+---
+
+### Exercise 3 – Cloud URL Analysis
+
+Studied URL structures of AWS S3, Azure Blob Storage, and Google Cloud Storage to understand how cloud resources are organized.
+
+---
+
+### Exercise 4 – Metadata Observation
+
+Analyzed publicly available metadata such as filenames, document types, and storage paths to understand what information can be gathered without accessing private content.
+
+---
+
+### Exercise 5 – Understanding Cloud Misconfigurations
+
+Explored how incorrect access permissions can unintentionally expose cloud resources and why proper configuration is essential for cloud security.
+
+---
+
+### Exercise 6 – Cross Verification
+
+Verified all findings using multiple trusted public sources before documenting the investigation.
+
+---
+
+# Tools Explored
+
+During today's learning, I explored:
+
+* Google Dorking
+* GrayHatWarfare
+* CloudEnum
+* S3Scanner
+* GitHub Search
+* PublicWWW
+* Shodan
+* Censys
+* Wayback Machine
+
+---
+
+# Investigation Workflow
+
+```text
+Identify Target
+        ↓
+Discover Public Cloud Resources
+        ↓
+Identify Cloud Provider
+        ↓
+Analyze URLs & Metadata
+        ↓
+Assess Public Exposure
+        ↓
+Cross Verify Findings
+        ↓
+Document Results
+```
+
+---
+
+# Challenges
+
+Some common challenges during Cloud OSINT include:
+
+* Multiple cloud providers
+* Dynamic cloud environments
+* Temporary public links
+* Large storage infrastructures
+* False positives
+* CDN-protected resources
+
+---
+
+# Best Practices
+
+* Investigate only publicly accessible resources.
+* Never bypass authentication mechanisms.
+* Respect privacy and legal boundaries.
+* Avoid downloading unnecessary files.
+* Follow responsible disclosure if accidental exposure is identified.
+* Always verify findings before reporting them.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Cloud storage has become a core part of modern digital infrastructure.
+* Cloud providers offer strong security features, but incorrect configurations can expose data.
+* Publicly available cloud resources can reveal valuable OSINT.
+* Metadata and cloud URLs help investigators understand cloud infrastructure.
+* Ethical investigations focus on observation rather than exploitation.
+* Responsible disclosure is an important part of cloud security.
+
+---
+
+# Summary
+
+Today's session introduced me to **Public Cloud & Storage OSINT**, where I learned how cybersecurity professionals identify publicly accessible cloud resources, analyze metadata, and understand cloud infrastructure using ethical OSINT techniques.
+
+Through theory and practical exercises, I explored cloud storage platforms, cloud URL structures, metadata analysis, and common cloud misconfigurations. This reinforced that effective cloud security depends not only on strong technology but also on proper configuration and continuous monitoring.
+
+The biggest takeaway from today's learning is:
+
+> **"Cloud security is not just about where your data is stored—it's about ensuring only the right people can access it. OSINT helps identify public exposure before it becomes a security incident."**
+
+---
+
+# Key Takeaways
+
+* Cloud storage is secure when configured correctly.
+* Misconfigurations are one of the leading causes of cloud data exposure.
+* Public cloud resources can reveal valuable OSINT.
+* Metadata provides useful intelligence without accessing sensitive information.
+* Ethical investigations focus on publicly available information only.
+* Cloud OSINT helps organizations reduce their attack surface and strengthen security.
+
+---
+
+## Next Topic
+
+**Day 21 – GitHub OSINT**
