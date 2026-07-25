@@ -1,0 +1,296 @@
+# Day 22 – Mobile OSINT
+
+## Overview
+
+Mobile devices have become an essential part of our daily lives, storing personal, financial, and professional information. Every application installed on a smartphone requires a certain level of trust from the user. Before installing an app, a significant amount of information is already publicly available that can help us evaluate its legitimacy, security, and privacy practices.
+
+**Mobile OSINT (Open Source Intelligence)** is the process of collecting and analyzing publicly available information about mobile applications, developers, permissions, privacy policies, and app metadata. The objective is to gain meaningful insights without accessing private information or performing intrusive analysis.
+
+Unlike reverse engineering or dynamic application testing, Mobile OSINT focuses entirely on information that developers intentionally publish through official app stores, developer websites, documentation, and other open sources.
+
+---
+
+# Objectives
+
+The main objectives of Mobile OSINT are:
+
+* Understand the purpose and functionality of an application.
+* Verify whether the application is developed by a legitimate organization.
+* Analyze the permissions requested by the application.
+* Review the application's privacy practices and data collection policies.
+* Assess the credibility and reputation of the developer.
+* Identify potential security and privacy risks before installing an application.
+
+---
+
+# Why Mobile OSINT is Important
+
+Millions of applications are available for Android and iOS devices, and new apps are published every day. While many are legitimate, some may request excessive permissions, collect unnecessary personal data, or impersonate trusted brands.
+
+Mobile OSINT enables security researchers, investigators, and everyday users to make informed decisions before interacting with an application.
+
+It helps answer important questions such as:
+
+* Is this application genuine?
+* Who developed it?
+* What information does it collect?
+* Why does it require certain permissions?
+* Does its privacy policy explain how user data is handled?
+* Is the application actively maintained?
+
+---
+
+# Information That Can Be Collected
+
+## 1. Application Information
+
+Basic application information provides an overview of the app.
+
+Examples include:
+
+* Application Name
+* Package Name (Android)
+* Bundle Identifier (iOS)
+* Category
+* Current Version
+* Release Date
+* Last Updated
+* Number of Downloads
+* Average Rating
+* User Reviews
+
+These details help determine the popularity, maintenance status, and legitimacy of an application.
+
+---
+
+## 2. Developer Profile
+
+Analyzing the developer is one of the most important aspects of Mobile OSINT.
+
+Useful information includes:
+
+* Developer Name
+* Company or Organization
+* Official Website
+* Contact Email
+* Other Published Applications
+* Verified Developer Status
+
+Reviewing a developer's profile allows investigators to determine whether multiple applications belong to the same organization and whether the developer has an established reputation.
+
+---
+
+## 3. Application Permissions
+
+Permissions define which device resources an application can access.
+
+Common permissions include:
+
+* Camera
+* Microphone
+* GPS Location
+* Contacts
+* SMS
+* Phone
+* Storage
+* Bluetooth
+* Calendar
+* Notifications
+
+Permission analysis involves asking:
+
+* Are these permissions necessary?
+* Do they match the application's functionality?
+* Are there unnecessary or excessive permission requests?
+
+For example, a flashlight application requesting access to contacts or SMS would warrant additional scrutiny.
+
+---
+
+## 4. Privacy Policy
+
+A privacy policy explains how an application manages user data.
+
+Important sections include:
+
+* Information Collected
+* Purpose of Collection
+* Data Sharing
+* Third-Party Services
+* Data Retention
+* Security Measures
+* User Rights
+* Account Deletion Process
+
+Reviewing privacy policies helps users understand how their personal information is processed and shared.
+
+---
+
+## 5. Application Metadata
+
+Metadata provides additional context about an application.
+
+Examples include:
+
+* Description
+* Screenshots
+* Feature List
+* Supported Devices
+* Supported Languages
+* Version History
+* Update Frequency
+* Release Notes
+
+This information can reveal how actively an application is maintained and whether significant changes have occurred over time.
+
+---
+
+# Mobile OSINT Investigation Workflow
+
+```text
+Choose an Application
+        │
+        ▼
+Collect Public Information
+        │
+        ▼
+Analyze Developer Profile
+        │
+        ▼
+Review App Permissions
+        │
+        ▼
+Study Privacy Policy
+        │
+        ▼
+Analyze Metadata & Reviews
+        │
+        ▼
+Verify Findings
+        │
+        ▼
+Document Observations
+```
+
+---
+
+# Tools Used
+
+## 1. Google Play Store
+
+Purpose:
+Analyze publicly available information about Android applications.
+
+Useful Information:
+
+* Application Details
+* Permissions
+* Developer Information
+* Ratings
+* Reviews
+* Update History
+
+---
+
+## 2. Apple App Store
+
+Purpose:
+Collect publicly available information about iOS applications.
+
+Useful Information:
+
+* Privacy Labels
+* Developer Information
+* Version History
+* Ratings
+* User Reviews
+
+---
+
+## 3. Exodus Privacy
+
+Purpose:
+Analyze Android applications for embedded trackers and permissions.
+
+Useful Information:
+
+* Trackers
+* Permission Analysis
+* Privacy Assessment
+
+---
+
+## 4. AppBrain
+
+Purpose:
+Research Android applications and developer portfolios.
+
+Useful Information:
+
+* Developer Profile
+* Similar Applications
+* Rankings
+* Historical Data
+
+---
+
+## 5. APKMirror
+
+Purpose:
+Review publicly available APK versions and release history.
+
+Useful Information:
+
+* Version History
+* Release Timeline
+* Changelog
+* Supported Android Versions
+
+---
+
+# Practical Exercise
+
+For today's practical, I selected a publicly available mobile application and performed a Mobile OSINT investigation using only official and publicly accessible information.
+
+The investigation included:
+
+* Reviewing the application's official app store listing.
+* Verifying the developer profile.
+* Examining the permissions requested by the application.
+* Reading the privacy policy to understand how user data is collected and processed.
+* Reviewing ratings, user feedback, version history, and recent updates.
+* Comparing requested permissions with the application's advertised functionality.
+* Documenting observations based entirely on publicly available information.
+
+No reverse engineering, exploitation, or unauthorized access was performed during this exercise.
+
+---
+
+# Key Learnings
+
+* Mobile OSINT focuses exclusively on publicly available information.
+* Developer profiles provide valuable insights into an application's authenticity.
+* Permissions should always align with an application's intended functionality.
+* Privacy policies explain how user information is collected, stored, and shared.
+* Public metadata, ratings, and update history help assess an application's credibility and maintenance.
+* Mobile OSINT is an essential skill for cybersecurity professionals, threat intelligence analysts, and security-conscious users.
+
+---
+
+# Skills Gained
+
+* Mobile OSINT Fundamentals
+* Android & iOS Application Analysis
+* Developer Profile Investigation
+* Permission Analysis
+* Privacy Policy Assessment
+* Metadata Analysis
+* Open Source Intelligence Methodology
+* Security Awareness
+* Threat Intelligence
+
+---
+
+## Reflection
+
+> **Every mobile application leaves behind a trail of publicly available information. Mobile OSINT taught me that before trusting an app with my data, I should first understand who developed it, what permissions it requests, how it handles user information, and whether its public profile aligns with its intended purpose. In cybersecurity, informed decisions begin with open-source intelligence.**
