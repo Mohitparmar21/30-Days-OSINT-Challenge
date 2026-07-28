@@ -1,0 +1,232 @@
+# Day 25: Supply Chain OSINT
+
+## Introduction
+
+Welcome to **Day 25** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **Supply Chain OSINT**, a critical area of cybersecurity that focuses on identifying and analyzing publicly available information about an organization's vendors, suppliers, software dependencies, cloud providers, and third-party services. Modern organizations depend on numerous external technologies, making supply chain visibility an essential part of defensive cybersecurity.
+
+One of the biggest lessons from today's learning is:
+
+> **"A strong cybersecurity strategy doesn't stop at your own infrastructure—it extends to every trusted third-party connection."**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand the concept of Supply Chain OSINT.
+* Learn how organizations depend on third-party vendors and services.
+* Identify software and cloud dependencies.
+* Understand common supply chain security risks.
+* Explore ethical investigation techniques.
+* Perform practical OSINT exercises.
+* Follow responsible cybersecurity practices.
+
+---
+
+# What is Supply Chain OSINT?
+
+Supply Chain OSINT is the process of collecting, analyzing, and verifying **publicly available information** about the external technologies and organizations that support a business.
+
+Instead of focusing only on the target organization, investigators also examine:
+
+* Third-party vendors
+* Software providers
+* Cloud platforms
+* Hosting services
+* CDN providers
+* Open-source dependencies
+* Business partners
+* External integrations
+
+This helps build a complete picture of an organization's digital ecosystem.
+
+---
+
+# Why is Supply Chain OSINT Important?
+
+Organizations increasingly rely on external services for daily operations. If one supplier or software provider becomes compromised, the impact can extend to every organization that depends on it.
+
+Supply Chain OSINT helps security professionals:
+
+* Identify third-party technologies.
+* Understand external attack surfaces.
+* Assess vendor security risks.
+* Discover software dependencies.
+* Improve risk management.
+* Support security assessments.
+* Strengthen organizational resilience.
+
+---
+
+# Common Supply Chain Components
+
+An organization's supply chain may include:
+
+* Cloud Service Providers
+* Web Hosting Providers
+* Content Delivery Networks (CDNs)
+* Payment Gateways
+* Email Services
+* Analytics Platforms
+* Software Libraries
+* Open-Source Packages
+* API Providers
+* Business Partners
+
+---
+
+# Common Supply Chain Risks
+
+Some common security risks include:
+
+* Vulnerable third-party software
+* Outdated dependencies
+* Compromised software updates
+* Misconfigured cloud services
+* Weak vendor security practices
+* Exposed API integrations
+* Dependency vulnerabilities
+* Stolen code-signing certificates
+
+---
+
+# Investigation Methodology
+
+A typical Supply Chain OSINT investigation follows these steps:
+
+1. Identify the target organization.
+2. Discover publicly visible third-party services.
+3. Identify software dependencies and integrations.
+4. Analyze cloud and hosting infrastructure.
+5. Assess publicly available documentation.
+6. Cross-verify findings.
+7. Document observations responsibly.
+
+---
+
+# Practical Exercises
+
+To reinforce today's learning, I completed several practical exercises using **authorized targets** and **publicly available information**.
+
+### Exercise 1 – Third-Party Service Identification
+
+Identified publicly visible vendors, cloud providers, and external services used by an organization.
+
+---
+
+### Exercise 2 – Technology Dependency Analysis
+
+Studied web technologies, hosting infrastructure, analytics platforms, and content delivery services to understand how organizations build their digital ecosystem.
+
+---
+
+### Exercise 3 – Software Dependency Research
+
+Explored publicly available software libraries and dependencies to understand their role in application security.
+
+---
+
+### Exercise 4 – Cloud Infrastructure Observation
+
+Analyzed publicly available cloud infrastructure and hosting information to understand external technology dependencies.
+
+---
+
+### Exercise 5 – Public Documentation Analysis
+
+Reviewed publicly available documentation and technical information to identify technology partners and external integrations.
+
+---
+
+### Exercise 6 – Cross Verification
+
+Verified all observations using multiple trusted public sources before documenting the investigation.
+
+---
+
+# Investigation Workflow
+
+```text
+Identify Target Organization
+          ↓
+Discover Third-Party Services
+          ↓
+Identify Software Dependencies
+          ↓
+Analyze Public Information
+          ↓
+Assess Supply Chain Risks
+          ↓
+Cross Verify Findings
+          ↓
+Document Investigation
+```
+
+---
+
+# Challenges
+
+Common challenges include:
+
+* Large vendor ecosystems
+* Constantly changing technologies
+* Hidden dependencies
+* Incomplete public information
+* False positives
+* Complex software supply chains
+
+---
+
+# Best Practices
+
+* Investigate only publicly available information.
+* Never attempt unauthorized access.
+* Verify findings using multiple trusted sources.
+* Respect privacy and legal boundaries.
+* Focus on defensive security and risk awareness.
+* Document findings accurately and responsibly.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Modern organizations rely heavily on third-party vendors and cloud services.
+* Supply chain visibility is essential for reducing cybersecurity risks.
+* Software dependencies can introduce hidden vulnerabilities.
+* Publicly available information helps map an organization's external ecosystem.
+* Cross-verification improves the reliability of investigations.
+* Ethical OSINT supports proactive risk management and defensive cybersecurity.
+
+---
+
+# Summary
+
+Today's session introduced me to **Supply Chain OSINT**, where I learned how cybersecurity professionals investigate publicly available information about vendors, software providers, cloud platforms, and business partners to better understand an organization's external attack surface.
+
+Through theoretical concepts and practical exercises, I explored technology dependencies, cloud infrastructure, third-party services, and public documentation. This reinforced that cybersecurity is not limited to protecting internal systems—it also requires understanding the security of every trusted connection within the supply chain.
+
+The biggest takeaway from today's learning is:
+
+> **"Every organization is part of a larger digital ecosystem. Understanding that ecosystem through ethical OSINT helps identify risks before they become security incidents."**
+
+---
+
+# Key Takeaways
+
+* Supply Chain OSINT extends investigations beyond the target organization.
+* Third-party vendors and software dependencies play a major role in cybersecurity.
+* Public information can reveal valuable insights into an organization's digital ecosystem.
+* Verification is essential before drawing conclusions.
+* Ethical OSINT strengthens supply chain visibility and supports proactive defense.
+* A secure supply chain contributes to a stronger overall security posture.
+
+---
+
+## Next Topic
+
+**Day 26 – Certificate Transparency (CT) Logs OSINT**
