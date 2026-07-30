@@ -1,0 +1,312 @@
+# Day 23 – Link Analysis & Intelligence Visualization
+
+## Introduction
+
+Welcome to **Day 23** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **Link Analysis & Intelligence Visualization**, a fundamental technique used by OSINT analysts, threat intelligence teams, law enforcement, and digital investigators to transform scattered information into meaningful relationships.
+
+Rather than viewing pieces of information separately, link analysis helps connect people, organizations, domains, IP addresses, social media accounts, phone numbers, email addresses, and other entities into a visual intelligence map.
+
+One of today's biggest lessons was:
+
+> **"Data becomes intelligence only when relationships become visible."**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand Link Analysis.
+* Learn Intelligence Visualization.
+* Identify different entity types.
+* Discover relationships between entities.
+* Build intelligence graphs.
+* Understand investigation workflows.
+* Learn visualization best practices.
+* Perform ethical OSINT analysis.
+
+---
+
+# What is Link Analysis?
+
+**Link Analysis** is the process of identifying and visualizing relationships between different entities collected during an investigation.
+
+Instead of analyzing information individually, investigators connect related data points to identify hidden patterns and relationships.
+
+Examples of entities include:
+
+* People
+* Organizations
+* Domains
+* Email Addresses
+* Phone Numbers
+* IP Addresses
+* Social Media Accounts
+* Cryptocurrency Wallets
+* Websites
+* Documents
+
+---
+
+# What is Intelligence Visualization?
+
+**Intelligence Visualization** is the graphical representation of collected intelligence to simplify complex investigations.
+
+Visualization helps analysts:
+
+* Identify hidden relationships.
+* Discover central entities.
+* Detect suspicious patterns.
+* Understand communication paths.
+* Improve investigation reporting.
+* Support decision making.
+
+---
+
+# Why is Link Analysis Important?
+
+Link Analysis helps investigators:
+
+* Connect fragmented information.
+* Discover hidden relationships.
+* Identify key individuals.
+* Understand infrastructure.
+* Support cyber investigations.
+* Improve threat intelligence.
+* Enhance incident response.
+* Present findings clearly.
+
+---
+
+# Common Entities
+
+During investigations, analysts commonly connect:
+
+### Digital Entities
+
+* Domains
+* IP Addresses
+* URLs
+* Email Addresses
+* Phone Numbers
+* Usernames
+* SSL Certificates
+* File Hashes
+
+### Human Entities
+
+* Individuals
+* Employees
+* Organizations
+* Social Media Profiles
+* Business Partners
+
+### Infrastructure Entities
+
+* Servers
+* Cloud Assets
+* Hosting Providers
+* DNS Records
+* Autonomous Systems (ASNs)
+
+---
+
+# Common Relationships
+
+Examples include:
+
+* Person → Email
+* Email → Domain
+* Domain → IP Address
+* Domain → SSL Certificate
+* Organization → Website
+* Phone Number → Social Profile
+* Username → Multiple Platforms
+* Company → Employees
+* IP Address → Hosting Provider
+* Domain → Subdomains
+
+---
+
+# Investigation Workflow
+
+```text
+Define Investigation Scope
+          │
+          ▼
+Collect Open-Source Data
+          │
+          ▼
+Identify Entities
+          │
+          ▼
+Discover Relationships
+          │
+          ▼
+Build Intelligence Graph
+          │
+          ▼
+Analyze Connections
+          │
+          ▼
+Verify Findings
+          │
+          ▼
+Create Investigation Report
+```
+
+---
+
+# Tools Explored
+
+Today I explored several visualization and link analysis platforms:
+
+* Maltego
+* SpiderFoot HX
+* Obsidian Graph View
+* Gephi
+* Linkurious
+* Microsoft Power BI
+* Neo4j
+* Graph Commons
+* OpenCTI
+* IBM i2 Analyst's Notebook (Research)
+
+---
+
+# Practical Exercises
+
+## Exercise 1 – Entity Collection
+
+Collected publicly available entities from open sources including:
+
+* Domains
+* Email addresses
+* Organizations
+* Social profiles
+
+---
+
+## Exercise 2 – Relationship Mapping
+
+Connected related entities to understand how different pieces of information are linked.
+
+---
+
+## Exercise 3 – Infrastructure Visualization
+
+Created a simple relationship graph connecting:
+
+* Domain
+* IP Address
+* Hosting Provider
+* SSL Certificate
+
+---
+
+## Exercise 4 – Social Media Mapping
+
+Observed publicly available connections between:
+
+* Usernames
+* Platforms
+* Organizations
+* Websites
+
+---
+
+## Exercise 5 – Intelligence Graph
+
+Built a basic intelligence graph showing relationships among collected entities.
+
+---
+
+## Exercise 6 – Cross Verification
+
+Verified every discovered relationship using multiple trusted public sources before documenting findings.
+
+---
+
+# Visualization Techniques
+
+Some commonly used visualization methods include:
+
+* Network Graphs
+* Relationship Maps
+* Timeline Analysis
+* Mind Maps
+* Node-Link Diagrams
+* Entity Relationship Graphs
+* Infrastructure Maps
+
+---
+
+# Challenges
+
+Common challenges include:
+
+* Large datasets
+* False relationships
+* Duplicate entities
+* Incomplete information
+* Dynamic infrastructure
+* Information overload
+* Data verification
+
+---
+
+# Best Practices
+
+* Verify every relationship before accepting it.
+* Use multiple trusted public sources.
+* Avoid assumptions based solely on visualization.
+* Clearly document evidence for every connection.
+* Respect privacy and legal boundaries.
+* Focus only on publicly available information.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Visualization simplifies complex investigations.
+* Relationships often reveal intelligence that isolated data cannot.
+* Verification is essential before drawing conclusions.
+* Link Analysis improves reporting and communication.
+* Intelligence graphs support better decision-making.
+* Ethical investigations rely on observation and verification.
+
+---
+
+# Summary
+
+Today's session introduced me to **Link Analysis & Intelligence Visualization**, where I learned how cybersecurity professionals transform scattered public information into structured intelligence.
+
+Through practical exercises, I explored how investigators collect entities, establish relationships, verify connections, and create intelligence graphs that simplify complex investigations.
+
+One of the biggest takeaways is that effective investigations are not just about collecting data—they're about understanding how different pieces of information connect to tell a complete story.
+
+> **"The power of OSINT lies not in the amount of data collected, but in the ability to visualize meaningful relationships between that data."**
+
+---
+
+# Key Takeaways
+
+* Link Analysis connects isolated information.
+* Intelligence visualization improves understanding.
+* Relationship mapping reveals hidden patterns.
+* Verification is essential before trusting connections.
+* Intelligence graphs support investigation reporting.
+* Ethical OSINT focuses on publicly available information.
+* Effective visualization leads to better decision-making.
+
+---
+
+## Disclaimer
+
+This repository is created **solely for educational and awareness purposes** as part of my **30 Days of OSINT Challenge**.
+
+All techniques discussed rely exclusively on **publicly available information** and emphasize ethical OSINT practices. No unauthorized access, exploitation, or interaction with private systems was performed or encouraged.
