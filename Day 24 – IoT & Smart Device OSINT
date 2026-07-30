@@ -1,0 +1,271 @@
+# Day 24 – IoT & Smart Device OSINT
+
+## Introduction
+
+Welcome to **Day 24** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **IoT & Smart Device OSINT**, which focuses on discovering and analyzing publicly accessible information about Internet of Things (IoT) devices. As smart homes, healthcare systems, industries, and businesses continue adopting connected technologies, understanding the digital footprint of these devices has become an essential cybersecurity skill.
+
+One of the biggest lessons from today's learning is:
+
+> **"Every connected device leaves a digital footprint. Understanding that footprint helps defenders identify risks before attackers do."**
+
+---
+
+# Learning Objectives
+
+During today's learning, I focused on:
+
+* Understanding the fundamentals of IoT.
+* Learning what IoT OSINT is.
+* Identifying publicly exposed IoT devices.
+* Understanding device metadata.
+* Exploring IoT search engines.
+* Learning how analysts investigate exposed devices ethically.
+* Understanding common security risks associated with connected devices.
+
+---
+
+# What is IoT?
+
+The **Internet of Things (IoT)** refers to physical devices connected to the internet that collect, process, and exchange data.
+
+Examples include:
+
+* Smart TVs
+* CCTV Cameras
+* Smart Speakers
+* Smart Doorbells
+* Smart Watches
+* Smart Lights
+* Smart Refrigerators
+* Industrial Sensors
+* Medical Devices
+* Smart Traffic Systems
+
+Billions of IoT devices operate worldwide, making them an important part of modern digital infrastructure.
+
+---
+
+# What is IoT OSINT?
+
+**IoT OSINT** is the process of collecting intelligence about publicly accessible Internet-connected devices using only open-source information.
+
+Security professionals may analyze publicly available information such as:
+
+* Device manufacturer
+* Device model
+* Firmware version
+* Public IP address
+* Network ports
+* Service banners
+* SSL certificates
+* Device hostnames
+* Device metadata
+
+The objective is to understand an organization's exposed attack surface without interacting with or accessing private systems.
+
+---
+
+# Why IoT OSINT Matters
+
+IoT OSINT helps organizations:
+
+* Discover exposed devices
+* Identify unnecessary internet exposure
+* Detect outdated firmware
+* Improve asset inventory
+* Support incident response
+* Strengthen defensive security
+* Reduce attack surface
+* Improve risk assessments
+
+---
+
+# Common Internet-Connected Devices
+
+Examples include:
+
+* CCTV Cameras
+* IP Cameras
+* Smart TVs
+* Printers
+* Routers
+* NAS Devices
+* Smart Door Locks
+* Smart Thermostats
+* Smart Lighting
+* Industrial Control Systems (ICS)
+
+---
+
+# Publicly Available Information
+
+During ethical investigations, analysts may discover:
+
+* Device Manufacturer
+* Device Model
+* Firmware Version
+* Device Hostname
+* Public IP Address
+* Open Network Ports
+* Running Services
+* SSL Certificates
+* Service Banners
+
+This information can help organizations identify potential security improvements.
+
+---
+
+# Investigation Workflow
+
+```
+Identify Target
+        │
+        ▼
+Discover Publicly Exposed Devices
+        │
+        ▼
+Identify Device Details
+        │
+        ▼
+Analyze Metadata
+        │
+        ▼
+Assess Exposure
+        │
+        ▼
+Cross Verify Findings
+        │
+        ▼
+Document Responsibly
+```
+
+---
+
+# Tools Explored
+
+During today's learning, I explored several well-known IoT discovery platforms:
+
+* Shodan
+* Censys
+* ZoomEye
+* FOFA
+* ONYPHE
+* BinaryEdge
+* Thingful
+* Google Dorking
+
+Each platform provides different perspectives on publicly indexed internet-connected devices and infrastructure.
+
+---
+
+# Practical Exercises
+
+## Exercise 1 – IoT Device Discovery
+
+Explored publicly indexed IoT devices using specialized search engines to understand how internet-connected assets are categorized.
+
+---
+
+## Exercise 2 – Device Identification
+
+Observed publicly available information such as manufacturers, models, and service banners.
+
+---
+
+## Exercise 3 – Firmware Analysis
+
+Studied firmware versions reported through public sources to understand why outdated software can introduce security risks.
+
+---
+
+## Exercise 4 – Network Service Observation
+
+Reviewed publicly visible services running on connected devices to better understand exposed attack surfaces.
+
+---
+
+## Exercise 5 – Metadata Analysis
+
+Analyzed publicly available metadata including:
+
+* Hostnames
+* SSL Certificates
+* Service Banners
+* Network Information
+
+---
+
+## Exercise 6 – Cross Verification
+
+Verified findings using multiple public sources before documenting observations, reinforcing the importance of accuracy in OSINT investigations.
+
+---
+
+# Challenges
+
+Common challenges include:
+
+* Large numbers of connected devices
+* Dynamic IP addressing
+* False positives
+* Vendor-specific protocols
+* Limited or incomplete metadata
+* Frequent firmware updates
+* Constantly changing internet exposure
+
+---
+
+# Best Practices
+
+* Collect only publicly available information.
+* Never access or attempt to control someone else's IoT device.
+* Respect privacy, ethics, and legal boundaries.
+* Verify observations before drawing conclusions.
+* Practice responsible disclosure whenever appropriate.
+* Document findings accurately and objectively.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* IoT devices significantly expand an organization's attack surface.
+* Public metadata can reveal valuable security insights.
+* Firmware versions help identify potential security risks.
+* Ethical IoT OSINT focuses on observation rather than interaction.
+* Verification is essential before reporting findings.
+* Continuous monitoring helps organizations maintain better visibility of internet-facing assets.
+
+---
+
+# Summary
+
+Today's session introduced the fundamentals of **IoT & Smart Device OSINT**, where I learned how cybersecurity professionals discover and analyze publicly accessible Internet-connected devices using ethical OSINT techniques.
+
+Through both theoretical concepts and practical exploration, I gained experience understanding device metadata, firmware versions, network services, search engines, and exposure assessment.
+
+As the number of connected devices continues to grow, understanding their digital footprint is becoming increasingly important for defenders seeking to identify risks before they become security incidents.
+
+> **"Smart devices make our lives easier, but every connected device also becomes part of an organization's attack surface. OSINT helps defenders discover and understand those devices before they become security risks."**
+
+---
+
+# Key Takeaways
+
+* IoT devices generate valuable OSINT.
+* Public metadata provides important security insights.
+* Firmware versions can indicate potential security risks.
+* Specialized IoT search engines simplify asset discovery.
+* Ethical investigations rely only on publicly available information.
+* Verification and responsible disclosure remain essential throughout every investigation.
+
+---
+
+## Disclaimer
+
+This repository is created **solely for educational and awareness purposes** as part of my **30 Days of OSINT Challenge**.
+
+All activities described here are based on **publicly available information** and emphasize ethical investigation practices. No unauthorized access, exploitation, or interaction with private systems was performed or encouraged.
