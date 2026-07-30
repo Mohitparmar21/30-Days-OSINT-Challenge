@@ -1,0 +1,241 @@
+# Day 26: Wayback Machine & Historical OSINT
+
+## Introduction
+
+Welcome to **Day 26** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **Wayback Machine & Historical OSINT**, a fascinating area of Open Source Intelligence that focuses on analyzing archived versions of websites to understand how an organization's digital presence has evolved over time. Rather than investigating only the current state of a website, Historical OSINT allows investigators to examine past versions, identify removed content, compare design changes, and discover publicly available information that may no longer be visible.
+
+One of the biggest lessons from today's learning is:
+
+> **"The internet rarely forgets. Every archived snapshot tells part of an organization's digital history."**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand Historical OSINT.
+* Learn how the Wayback Machine archives websites.
+* Explore archived website snapshots.
+* Compare historical and current web content.
+* Identify deleted pages and public resources.
+* Analyze website evolution over time.
+* Perform ethical historical investigations.
+
+---
+
+# What is Historical OSINT?
+
+Historical OSINT is the process of collecting and analyzing **publicly archived information** to understand how a website, organization, or digital presence has changed over time.
+
+Instead of asking:
+
+**"What exists today?"**
+
+Historical OSINT asks:
+
+**"What existed before?"**
+
+Archived information often provides valuable context that is no longer available on live websites.
+
+---
+
+# What is the Wayback Machine?
+
+The **Wayback Machine**, developed by the **Internet Archive**, is one of the world's largest web archives.
+
+It continuously stores snapshots of publicly accessible websites, allowing users to revisit previous versions from different points in time.
+
+These archived snapshots help preserve the history of the internet and provide valuable information for researchers, journalists, cybersecurity professionals, and OSINT investigators.
+
+---
+
+# Why is Historical OSINT Important?
+
+Historical OSINT helps security professionals:
+
+* Analyze website evolution.
+* Discover previously available public content.
+* Identify removed webpages.
+* Review historical documents.
+* Track branding and organizational changes.
+* Support threat intelligence investigations.
+* Improve digital footprint analysis.
+
+---
+
+# What Can Be Found?
+
+Historical investigations may reveal:
+
+* Archived webpages
+* Previous website layouts
+* Deleted public pages
+* Historical contact information
+* Archived PDF documents
+* Press releases
+* Research publications
+* Blog posts
+* Previous branding
+* Public announcements
+
+---
+
+# Investigation Methodology
+
+### Step 1
+
+Identify the target website.
+
+---
+
+### Step 2
+
+Access publicly archived snapshots.
+
+---
+
+### Step 3
+
+Compare historical and current versions.
+
+---
+
+### Step 4
+
+Identify changes in webpages, branding, and content.
+
+---
+
+### Step 5
+
+Document publicly available historical findings.
+
+---
+
+### Step 6
+
+Cross-verify observations before reporting.
+
+---
+
+# Practical Exercises
+
+To reinforce today's learning, I completed several practical exercises using **publicly archived information**.
+
+### Exercise 1 – Website History Analysis
+
+Explored archived versions of an authorized organization's official website to understand its digital evolution over time.
+
+---
+
+### Exercise 2 – Homepage Comparison
+
+Compared historical homepage layouts with the current website to identify changes in branding, navigation, and user interface.
+
+---
+
+### Exercise 3 – Historical Content Discovery
+
+Identified publicly available webpages and resources that were available in previous years but are no longer visible on the live website.
+
+---
+
+### Exercise 4 – Archived Document Review
+
+Examined historical public documents and resources that were accessible through archived website snapshots.
+
+---
+
+### Exercise 5 – Timeline Analysis
+
+Observed how the organization's online presence evolved by comparing snapshots from multiple years.
+
+---
+
+### Exercise 6 – Cross Verification
+
+Verified all observations using publicly available archived data before documenting the investigation.
+
+---
+
+# Investigation Workflow
+
+```text
+Identify Target Website
+          ↓
+Access Archived Snapshots
+          ↓
+Compare Historical Versions
+          ↓
+Identify Changes
+          ↓
+Analyze Historical Content
+          ↓
+Cross Verify Findings
+          ↓
+Document Investigation
+```
+
+---
+
+# Challenges
+
+Common challenges include:
+
+* Missing archived snapshots.
+* Incomplete website captures.
+* Broken archived links.
+* Dynamic web content not being fully archived.
+* Changes in website structure over time.
+* Archived content that may no longer reflect the current organization.
+
+---
+
+# Best Practices
+
+* Investigate only publicly archived information.
+* Respect privacy and legal boundaries.
+* Never attempt to access restricted or private resources.
+* Verify findings using multiple trusted sources.
+* Clearly distinguish historical observations from current information.
+* Document findings responsibly.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Historical OSINT provides valuable context beyond current website content.
+* Archived website snapshots reveal an organization's digital evolution.
+* Publicly archived information can support cybersecurity investigations.
+* Comparing historical and current websites improves asset discovery.
+* Cross-verification strengthens investigation accuracy.
+* Ethical investigations rely only on publicly available archived information.
+
+---
+
+# Summary
+
+Today's session introduced me to **Wayback Machine & Historical OSINT**, where I learned how cybersecurity professionals use archived website snapshots to analyze an organization's digital history and identify changes over time.
+
+Through theory and practical exercises, I explored historical webpages, archived documents, branding evolution, and removed public content. This experience reinforced that understanding an organization's past can provide valuable context for present-day investigations while supporting ethical and responsible OSINT practices.
+
+The biggest takeaway from today's learning is:
+
+> **"Sometimes the most valuable intelligence isn't hidden—it simply belongs to the past. Historical OSINT helps us understand where an organization has been so we can better understand where it is today."**
+
+---
+
+# Key Takeaways
+
+* Historical OSINT focuses on archived public information.
+* The Wayback Machine preserves historical website snapshots.
+* Comparing archived and current websites reveals digital evolution.
+* Historical webpages can expose valuable public context.
+* Verification is essential before documenting findings.
+* Ethical investigations rely exclusively on publicly archived information.
+
