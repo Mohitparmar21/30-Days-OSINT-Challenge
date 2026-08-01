@@ -1,0 +1,286 @@
+# Day 28: Attack Surface Management (ASM)
+
+## Introduction
+
+Welcome to **Day 28** of my **30 Days of OSINT (Open Source Intelligence) Challenge**.
+
+Today, I explored **Attack Surface Management (ASM)**, a proactive cybersecurity practice that helps organizations continuously discover, monitor, and manage their publicly exposed digital assets. As organizations expand their online presence through websites, cloud services, APIs, and remote infrastructure, maintaining visibility into every internet-facing asset becomes essential for reducing cyber risk.
+
+One of the biggest lessons from today's learning is:
+
+> **"You can't protect what you don't know exists. Visibility is the foundation of cybersecurity."**
+
+---
+
+# Learning Objectives
+
+During today's learning, I aimed to:
+
+* Understand the concept of Attack Surface Management (ASM).
+* Learn what an attack surface is and why it matters.
+* Identify different types of internet-facing assets.
+* Understand the role of OSINT in asset discovery.
+* Learn about External Attack Surface Management (EASM).
+* Recognize the risks of Shadow IT and forgotten assets.
+* Perform ethical attack surface discovery using publicly available information.
+
+---
+
+# What is Attack Surface Management?
+
+Attack Surface Management (ASM) is the continuous process of discovering, monitoring, analyzing, and reducing an organization's publicly accessible digital assets that could potentially be targeted by attackers.
+
+Rather than waiting for vulnerabilities to be exploited, ASM helps organizations proactively identify and understand their exposure before attackers do.
+
+---
+
+# What is an Attack Surface?
+
+An **Attack Surface** is the collection of all publicly accessible digital assets that an attacker could potentially interact with.
+
+Examples include:
+
+* Domains
+* Subdomains
+* Websites
+* APIs
+* Public IP Addresses
+* Cloud Resources
+* Email Servers
+* VPN Portals
+* SSL/TLS Certificates
+* Internet-Facing Applications
+
+---
+
+# Types of Attack Surfaces
+
+### External Attack Surface
+
+Assets that are publicly accessible over the internet, such as websites, cloud infrastructure, APIs, VPN gateways, and public services.
+
+### Internal Attack Surface
+
+Assets that are accessible only within the organization's internal network, including workstations, internal applications, and file servers.
+
+### Third-Party Attack Surface
+
+Assets managed by vendors, cloud providers, SaaS platforms, or business partners that interact with the organization.
+
+---
+
+# Why is ASM Important?
+
+Attack Surface Management helps organizations:
+
+* Discover unknown internet-facing assets.
+* Identify forgotten systems (Shadow IT).
+* Monitor new domains and subdomains.
+* Improve asset inventory.
+* Reduce cyber risk.
+* Strengthen proactive security.
+* Support continuous security monitoring.
+
+---
+
+# Shadow IT
+
+Shadow IT refers to systems, applications, or services that exist without the knowledge or oversight of the organization's security team.
+
+Examples include:
+
+* Forgotten development servers
+* Old subdomains
+* Unused cloud resources
+* Test environments
+* Legacy applications
+
+These assets often become attractive targets because they may no longer be monitored or updated.
+
+---
+
+# Investigation Methodology
+
+### Step 1
+
+Identify the target organization.
+
+---
+
+### Step 2
+
+Discover publicly available domains and subdomains.
+
+---
+
+### Step 3
+
+Identify internet-facing assets.
+
+---
+
+### Step 4
+
+Review publicly observable technologies and services.
+
+---
+
+### Step 5
+
+Analyze Certificate Transparency records to identify additional assets.
+
+---
+
+### Step 6
+
+Create a simple attack surface map.
+
+---
+
+### Step 7
+
+Cross-verify observations before documenting findings.
+
+---
+
+# Practical Exercises
+
+To reinforce today's learning, I performed an ethical Attack Surface Management assessment using an **authorized organization** and publicly available information.
+
+### Exercise 1 – Domain Identification
+
+Identified the organization's official domain and primary public website.
+
+---
+
+### Exercise 2 – Subdomain Discovery
+
+Observed publicly available subdomains to better understand the organization's external infrastructure.
+
+---
+
+### Exercise 3 – Certificate Transparency Analysis
+
+Reviewed publicly available SSL/TLS certificate records to identify additional internet-facing assets.
+
+---
+
+### Exercise 4 – Technology Identification
+
+Observed publicly visible web technologies, servers, and infrastructure used by the organization's website.
+
+---
+
+### Exercise 5 – Attack Surface Mapping
+
+Created a simple visual map of publicly exposed assets to understand the organization's external digital footprint.
+
+---
+
+### Exercise 6 – Cross Verification
+
+Verified observations using multiple trusted public sources before documenting the assessment.
+
+---
+
+# Investigation Workflow
+
+```text
+Identify Organization
+        ↓
+Discover Domains
+        ↓
+Enumerate Subdomains
+        ↓
+Identify Public Assets
+        ↓
+Analyze Technologies
+        ↓
+Review Certificate Transparency
+        ↓
+Map the Attack Surface
+        ↓
+Cross Verify Findings
+        ↓
+Document Investigation
+```
+
+---
+
+# Tools Explored
+
+During today's learning, I explored:
+
+* Shodan
+* Censys
+* SecurityTrails
+* crt.sh
+* DNSDumpster
+* Amass
+* Subfinder
+* WHOIS Lookup
+* BuiltWith
+* Wappalyzer
+* Netcraft
+* VirusTotal
+* urlscan.io
+
+---
+
+# Challenges
+
+Some common challenges include:
+
+* Shadow IT
+* Rapid cloud adoption
+* Forgotten internet-facing assets
+* Third-party infrastructure
+* Continuously changing environments
+* False positives during asset discovery
+
+---
+
+# Best Practices
+
+* Investigate only publicly available information.
+* Maintain an up-to-date asset inventory.
+* Continuously monitor internet-facing assets.
+* Verify findings using multiple trusted sources.
+* Respect ethical and legal boundaries.
+* Focus on improving visibility rather than exploitation.
+
+---
+
+# Key Learnings
+
+By the end of today's learning, I understood that:
+
+* Every publicly exposed asset contributes to an organization's attack surface.
+* Unknown assets can create significant security risks.
+* OSINT techniques play a vital role in discovering internet-facing infrastructure.
+* Continuous monitoring is essential because attack surfaces constantly evolve.
+* Certificate Transparency logs provide valuable visibility into public assets.
+* Effective cybersecurity begins with complete asset visibility.
+
+---
+
+# Summary
+
+Today's session introduced me to **Attack Surface Management (ASM)**, where I learned how cybersecurity professionals continuously discover, monitor, and analyze publicly exposed digital assets using OSINT techniques.
+
+Through theory and practical exercises, I explored asset discovery, subdomain enumeration, certificate transparency, technology identification, and attack surface mapping. This experience reinforced that organizations cannot effectively protect systems they are unaware of. By maintaining visibility into their external attack surface, defenders can proactively reduce risk before attackers identify potential entry points.
+
+The biggest takeaway from today's learning is:
+
+> **"Attackers search for forgotten assets. Defenders should find them first."**
+
+---
+
+# Key Takeaways
+
+* Attack Surface Management improves visibility into internet-facing assets.
+* Domains, subdomains, APIs, cloud resources, and certificates all contribute to an organization's attack surface.
+* Shadow IT can significantly increase cyber risk.
+* Continuous monitoring is essential because attack surfaces constantly change.
+* OSINT techniques help organizations proactively identify publicly exposed assets.
+* Ethical investigations focus on visibility, documentation, and risk reduction.
