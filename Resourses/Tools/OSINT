@@ -1,0 +1,381 @@
+
+# 1. Search Engines (15+)
+
+* Google
+* Bing
+* DuckDuckGo
+* Brave Search
+* Yandex
+* Yahoo
+* Mojeek
+* Startpage
+* Swisscows
+* Ecosia
+* SearXNG
+* Dogpile
+* Qwant
+* AOL Search
+* Ask.com
+
+---
+
+# 2. Google Dorking (10+)
+
+* Google Advanced Search
+* Google Cache
+* Google Books
+* Google Scholar
+* Google Patents
+* Google Finance
+* Google News
+* Google Maps
+* Google Images
+* Google Lens
+
+---
+
+# 3. Username Investigation (20+)
+
+* WhatsMyName
+* Namechk
+* Namecheckup
+* Sherlock
+* Maigret
+* Holehe
+* Social Analyzer
+* Blackbird
+* UserSearch
+* UserSearch.org
+* IDCrawl
+* GitHub Search
+* Reddit Search
+* Mastodon Search
+* TikTok Search
+* Instagram Search
+* X Search
+* Facebook Search
+* YouTube Search
+* LinkedIn Search
+
+---
+
+# 4. Email Investigation (20+)
+
+* Hunter.io
+* PhoneBook.cz
+* EmailHippo
+* Epieos
+* Have I Been Pwned
+* DeHashed
+* IntelligenceX
+* LeakCheck
+* Holehe
+* Emailrep
+* Gravatar
+* Skymem
+* ThatsThem
+* Clearbit
+* FullContact
+* Snov.io
+* RocketReach
+* VoilaNorbert
+* VerifyEmailAddress
+* MXToolbox
+
+---
+
+# 5. Phone Number OSINT (15+)
+
+* Truecaller
+* Sync.ME
+* PhoneInfoga
+* Epieos
+* OpenCNAM
+* NumLookup
+* Tellows
+* Whocalledme
+* ShouldIAnswer
+* CallerSmart
+* NumVerify
+* Twilio Lookup
+* Whitepages
+* SpyDialer
+* EmobileTracker
+
+---
+
+# 6. Domain & DNS (25+)
+
+* WHOIS
+* ICANN Lookup
+* DNSDumpster
+* SecurityTrails
+* ViewDNS
+* VirusTotal
+* URLScan
+* Netcraft
+* BuiltWith
+* Wappalyzer
+* DNSlytics
+* crt.sh
+* Censys
+* Shodan
+* Amass
+* Subfinder
+* Assetfinder
+* Sublist3r
+* Chaos
+* WhoisXML API
+* Robtex
+* MXToolbox
+* DNSChecker
+* Hurricane Electric BGP
+* IPinfo
+
+---
+
+# 7. Website Investigation (20+)
+
+* BuiltWith
+* Wappalyzer
+* Wayback Machine
+* Archive.today
+* URLScan
+* Netcraft
+* SimilarWeb
+* BuiltWith Trends
+* WhatCMS
+* GTmetrix
+* SecurityHeaders
+* SSL Labs
+* Favicon Hash
+* HTTP Observatory
+* Redirect Detective
+* WebCheck
+* PublicWWW
+* VisualPing
+* PageSpeed Insights
+* Google Transparency Report
+
+---
+
+# 8. IP Address OSINT (20+)
+
+* Shodan
+* Censys
+* ZoomEye
+* FOFA
+* GreyNoise
+* IPinfo
+* AbuseIPDB
+* Talos Intelligence
+* VirusTotal
+* Criminal IP
+* ARIN
+* RIPE
+* APNIC
+* BGPView
+* IPVoid
+* Spur
+* IPLocation
+* MaxMind Demo
+* IP2Location
+* ViewDNS
+
+---
+
+# 9. Image OSINT (20+)
+
+* Google Lens
+* Google Images
+* TinEye
+* Yandex Images
+* Bing Visual Search
+* PimEyes
+* FaceCheck.ID
+* EXIFTool
+* ExifInfo
+* Metadata2Go
+* FotoForensics
+* JPEGsnoop
+* Image Raider
+* GeoSpy AI
+* Mapillary
+* SunCalc
+* GeoHints
+* Reverse.photos
+* ImgOps
+* Bing Images
+
+---
+
+# 10. Social Media OSINT (20+)
+
+* Social Searcher
+* Followerwonk
+* TweetDeck/X Pro
+* Twitonomy
+* CrowdTangle (legacy/restricted)
+* Inflact
+* IG Downloader
+* Reddit Search
+* Pushshift alternatives
+* TikTok Search
+* Facebook Search
+* LinkedIn Search
+* YouTube Search
+* Nitter instances
+* Mastodon Search
+* Social Blade
+* Livecounts
+* Trends24
+* YouTube Data Viewer
+* Google Alerts
+
+---
+
+# 11. Maps & Geolocation (20+)
+
+* Google Maps
+* Google Earth
+* Google Street View
+* OpenStreetMap
+* Mapillary
+* Wikimapia
+* GeoHints
+* SunCalc
+* Windy
+* PeakVisor
+* Sentinel Hub
+* NASA Worldview
+* OpenRailwayMap
+* FlightRadar24
+* ADS-B Exchange
+* MarineTraffic
+* VesselFinder
+* Zoom Earth
+* What3Words
+* GeoGuessr
+
+---
+
+# 12. Dark Web & Breach Research (15+)
+
+* IntelligenceX
+* Ahmia
+* OnionSearch
+* Have I Been Pwned
+* LeakCheck
+* DeHashed
+* BreachDirectory
+* Hudson Rock
+* Snusbase
+* Torch
+* Haystak
+* DarkSearch
+* OnionLand Search
+* Tor Browser
+* OnionScan
+
+---
+
+# 13. Metadata Analysis (10+)
+
+* EXIFTool
+* ExifInfo
+* Metadata2Go
+* FOCA
+* PDFInfo
+* Strings
+* Binwalk
+* MediaInfo
+* JPEGSnoop
+* PDF Examiner
+
+---
+
+# 14. Browser & OPSEC (15+)
+
+* BrowserLeaks
+* Cover Your Tracks
+* AmIUnique
+* FingerprintJS Demo
+* Device Info
+* Mullvad Browser
+* Tor Browser
+* Firefox Multi-Account Containers
+* Privacy Badger
+* uBlock Origin
+* NoScript
+* CanvasBlocker
+* DNS Leak Test
+* WebRTC Leak Test
+* BrowserScan
+
+---
+
+# 15. Frameworks & Automation (20+)
+
+* SpiderFoot
+* Maltego
+* Recon-ng
+* Osintgram
+* PhoneInfoga
+* theHarvester
+* Photon
+* Amass
+* SpiderSuite
+* Datasploit
+* BBOT
+* GHunt
+* H8mail
+* TruffleHog
+* GitLeaks
+* Aquatone
+* Eyewitness
+* Metagoofil
+* Photon
+* FinalRecon
+
+---
+
+# Bonus AI-Powered OSINT Tools
+
+* ChatGPT
+* Gemini
+* Claude
+* Perplexity
+* Microsoft Copilot
+* NotebookLM
+* GeoSpy AI
+* Maltego AI
+* OSINT Industries
+* Bellingcat AI-assisted workflows
+
+---
+
+## Total
+
+This roadmap includes **approximately 250+ widely used OSINT tools and platforms** across different investigation domains.
+
+### Recommendation
+
+Since you've already completed the fundamentals of your OSINT challenge, I recommend learning these tools in this order:
+
+1. Search & Google Dorking
+2. Username OSINT
+3. Email OSINT
+4. Phone OSINT
+5. Domain & DNS
+6. Website Fingerprinting
+7. Social Media OSINT
+8. Image & Geolocation
+9. Metadata Analysis
+10. Mobile OSINT
+11. Browser Fingerprinting & OPSEC
+12. Threat Intelligence (Shodan, Censys, GreyNoise)
+13. Automation (SpiderFoot, Maltego, Recon-ng)
+14. AI for OSINT
+15. Reporting & Intelligence Analysis
+
+This progression will build practical skills in the same order used by many professional OSINT analysts.
